@@ -1,4 +1,4 @@
-![MoraLab](/picture/MORALAB_Banner.png)
+<img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
 # Installing Oracle VM VirtualBox
 
@@ -40,7 +40,7 @@
 
 ## - Creating a new Virtual Machine
 
-> 6. To create a new VM, click on "New" and choose a name, folder, and operative system to be installed.
+> 6. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
 
 <br>
 <img src="images/VBox11.PNG" width="400">
@@ -178,4 +178,4 @@
 <img src="images/VBox52.PNG" width="600">
 <br>
 
-*Last updated: May 5th, 2021*
+*Last updated: Antonio Mora, May 5th, 2021*
