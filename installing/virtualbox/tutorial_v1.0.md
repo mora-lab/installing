@@ -4,21 +4,23 @@
 
 > The following are the instructions to install a virtual machine in Windows 10 (now referred as the "host" operative system). The chosen virtual machine is VirtualBox 6.1.18 and the system we will add "inside" the VM will be the CentOS-Stream-8 Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
 
-## Downloads
+## - Downloads
 
 > 1. Download VirtualBox from their website: [Download](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe).
 
 > 2. Download the ISO file with our guest OS (CentOS-Stream-8). You can find your favorite mirror site here: [Mirror sites](http://isoredirect.centos.org/centos/8-stream/isos/x86_64/). For this tutorial, we have downloaded our OS from here: [Download](http://download.nus.edu.sg/mirror/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20210402-dvd1.iso).
 
-## Installing VirtualBox
+## - Installing VirtualBox
 
 > 3. Run VirtualBox installation file. After running, you will receive a welcome message giving start to the installation process.
 
+<br>
 <img src="images/VBox01.PNG" width="400">
 <br>
 
 > 4. Choose your desired location and other options.
 
+<br>
 <img src="images/VBox02.PNG" width="400">
 <br>
 <img src="images/VBox03.PNG" width="400">
@@ -30,14 +32,19 @@
 
 > 5. After this, VirtualBox will be installed.
 
-![MoraLab](images/VBox06.PNG)
-![MoraLab](images/VBox07.PNG)
+<br>
+<img src="images/VBox06.PNG" width="400">
+<br>
+<img src="images/VBox07.PNG" width="400">
+<br>
 
-## Creating a new Virtual Machine
+## - Creating a new Virtual Machine
 
 > 6. To create a new VM, click on "New" and choose a name, folder, and operative system to be installed.
 
-![MoraLab](images/VBox11.PNG)
+<br>
+<img src="images/VBox11.PNG" width="400">
+<br>
 
 > 7. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 40 GB hard disk.
 
