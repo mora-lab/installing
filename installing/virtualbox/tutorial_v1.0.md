@@ -5,12 +5,14 @@
 > The following are the instructions to install a virtual machine in Windows 10 (now referred as the "host" operative system). The chosen virtual machine is VirtualBox 6.1.18 and the system we will add "inside" the VM will be the CentOS-Stream-8 Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
 
 ## - Downloads
+<br>
 
 > 1. Download VirtualBox from their website: [Download](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe).
 
 > 2. Download the ISO file with our guest OS (CentOS-Stream-8). You can find your favorite mirror site here: [Mirror sites](http://isoredirect.centos.org/centos/8-stream/isos/x86_64/). For this tutorial, we have downloaded our OS from here: [Download](http://download.nus.edu.sg/mirror/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20210402-dvd1.iso).
 
 ## - Installing VirtualBox
+<br>
 
 > 3. Run VirtualBox installation file. After running, you will receive a welcome message giving start to the installation process.
 
@@ -39,6 +41,7 @@
 <br>
 
 ## - Creating a new Virtual Machine
+<br>
 
 > 6. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
 
@@ -73,6 +76,7 @@
 <br>
 
 ## - Installing CentOS-8
+<br>
 
 > 10. Now we can proceed to install the OS for our new VM. First, select the downloaded ISO file.
 
@@ -157,6 +161,7 @@
 <br>
 
 ## - Installing CentOS-8 Guest Additions
+<br>
 
 > 20. Inside CentOS, go to **Devices**, **Insert Guest Additions CD image**, and follow the procedure.
 
@@ -175,7 +180,7 @@
 > 21. That's it. Now you have a fully functional CentOS-Stream-8 VM.
 
 <br>
-<img src="images/VBox52.PNG" width="600">
+<img src="images/VBox52.PNG" width="800">
 <br>
 
 *Last updated: Antonio Mora, May 5th, 2021*
