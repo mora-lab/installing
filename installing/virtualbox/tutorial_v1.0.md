@@ -15,6 +15,7 @@
 > 3. Run VirtualBox installation file. After running, you will receive a welcome message giving start to the installation process.
 
 ![MoraLab](images/VBox01.PNG | width=100)
+<img src="images/VBox01.PNG" width="96">
 
 > 4. Choose your desired location and other options.
 
