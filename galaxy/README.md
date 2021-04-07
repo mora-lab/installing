@@ -6,11 +6,11 @@
 
 ## Pre-requisites
 
-###If you are in Windows:
+### If you are in Windows:
 1. Create a Linux Virtual Machine. Follow the instructions here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/tree/main/virtualbox).
 2. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
-###If you are in Linux:
+### If you are in Linux:
 1. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
 ### One more thing before starting...
@@ -19,7 +19,7 @@ Make sure that Anaconda's base environment is activated.
 <img src="images/Galaxy01.PNG" width="600">
 <br>
 
-## - Download Galaxy using Git
+## - Install Galaxy using Git
 <br>
 
 > 1. Make a directory called "Galaxy".
@@ -32,26 +32,26 @@ Make sure that Anaconda's base environment is activated.
 <img src="images/Galaxy05.PNG" width="600">
 <br>
 
-## - Installing Anaconda
+> 3. Get Galaxy using Git.
+<br>
+<img src="images/Galaxy06.PNG" width="600">
+<br>
+<img src="images/Galaxy07.PNG" width="600">
 <br>
 
-> 3. Run the downloaded file by using:
-<br>
-> bash Anaconda3-2020.11-Linux-x86_64.sh
-<br>
-<br>
-<img src="images/Anaconda05.PNG" width="600">
+## - Running Galaxy
 <br>
 
-> 4. Follow the installation procedure (accept license, location, etc).
+> 4. Move to the *Galaxy/galaxy* directory and run the *run.sh* file.
 <br>
-<img src="images/Anaconda06.PNG" width="600">
+<img src="images/Galaxy08.PNG" width="600">
 <br>
-<img src="images/Anaconda07.PNG" width="600">
+<img src="images/Galaxy09.PNG" width="600">
 <br>
-<img src="images/Anaconda08.PNG" width="600">
+
+> 5. Open a web browser at *localhost:8080*.
 <br>
-<img src="images/Anaconda09.PNG" width="600">
+<img src="images/Galaxy10.PNG" width="600">
 <br>
 
 *Last updated: Antonio Mora, April 7th, 2021*
