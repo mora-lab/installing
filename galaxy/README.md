@@ -103,7 +103,7 @@ cp config/galaxy.yml.sample config/galaxy.yml
 <img src="images/Galaxy16.PNG" width="600">
 <br>
 
-> 12. Open the `galaxy.yml` file with a text editor:
+> 12. Open the `galaxy.yml` file with a text editor (here, we will use **vim**):
 ```
 vim config/galaxy.yml
 ```
@@ -111,12 +111,12 @@ vim config/galaxy.yml
 <img src="images/Galaxy17.PNG" width="600">
 <br>
 
-> 13. Inside the vim editor, press `i` to edit (insert) new text. First, we will modify the address and port on which Galaxy will listen to the network (by default, only listens to localhost, ie., it is not accessible over the network). On line 24, change the default address to `0.0.0.0:8080`.
+> 13. Inside the **vim** editor, press `i` to edit (insert) new text. First, we will modify the address and port on which Galaxy will listen to the network (by default, only listens to localhost, ie., it is not accessible over the network). On line 24, change the default address to `0.0.0.0:8080`.
 <br>
 <img src="images/Galaxy18.PNG" width="600">
 <br>
 
-> 14. To save and leave **vim**, press *Esc* and then *:x*
+> 14. To save and leave **vim**, press *Esc* and then `:x`
 <br>
 <img src="images/Galaxy19.PNG" width="600">
 <br>
