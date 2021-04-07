@@ -83,5 +83,14 @@ Make sure that Anaconda's base environment is activated.
 ## - Changes to Galaxy configuration (Internet connection and Administrator account)
 <br>
 
+> 11. Go to the *Galaxy/galaxy* folder and make a copy of `galaxy.yml`:
+```
+cp config/galaxy.yml.sample config/galaxy.yml
+```
+<br>
+<br>
+<img src="images/Galaxy16.PNG" width="600">
+<br>
+
 
 *Last updated: Antonio Mora, April 7th, 2021*
