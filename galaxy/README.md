@@ -4,7 +4,7 @@
 
 > The following are the instructions to install Galaxy in a CentOS-Stream-8 OS. Installation in similar environments follows similar steps.
 
-## Pre-requisites
+## - Pre-requisites
 
 ### If you are in Windows:
 1. Create a Linux Virtual Machine. Follow the instructions here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/tree/main/virtualbox).
@@ -15,6 +15,7 @@
 
 ### One more thing before starting...
 Make sure that Anaconda's base environment is activated.
+<br>
 <br>
 <img src="images/Galaxy01.PNG" width="600">
 <br>
@@ -53,5 +54,26 @@ Make sure that Anaconda's base environment is activated.
 <br>
 <img src="images/Galaxy10.PNG" width="600">
 <br>
+
+> 6. Close Galaxy (close web browser; Ctrl+C to the process in the terminal).
+
+> 7. *Optional:* You can see that Galaxy has created its own pythin environment called *_galaxy_*.
+<br>
+<img src="images/Galaxy11.PNG" width="600">
+<br>
+
+## - Create a Galaxy account
+<br>
+
+> 8. Again, go to *Galaxy/galaxy* and run the *run.sh* file.
+<br>
+<img src="images/Galaxy12.PNG" width="600">
+<br>
+
+> 9. Click on *Login or Register* and fill the information to open a new Galaxy account.
+<br>
+<img src="images/Galaxy13.PNG" width="600">
+<br>
+
 
 *Last updated: Antonio Mora, April 7th, 2021*
