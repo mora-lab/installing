@@ -17,7 +17,7 @@
 
 > 2. Open a terminal and download Anaconda3 latest version (currently, 2020.11) using:
 <br>
-```bash
+```
 curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
 ```
 <br>
@@ -29,7 +29,7 @@ curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
 
 > 3. Run the downloaded file by using:
 <br>
-```bash
+```
 bash Anaconda3-2020.11-Linux-x86_64.sh
 ```
 <br>
@@ -52,7 +52,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 
 > 5. Go to the bin folder and activate Anaconda.
 <br>
-```bash
+```
 cd /home/username/anaconda3/bin
 . ./activate
 ```
