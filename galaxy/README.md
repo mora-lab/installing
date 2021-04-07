@@ -13,22 +13,23 @@
 ###If you are in Linux:
 1. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
+### One more thing before starting...
+Make sure that Anaconda's base environment is activated.
+<br>
+<img src="images/Galaxy01.PNG" width="600">
+<br>
+
 ## - Download Galaxy using Git
 <br>
 
-> 1. Go to your Linux machine. In our case, open the Virtual Box and start the VM.
+> 1. Make a directory called "Galaxy".
 <br>
-<img src="images/Anaconda01.PNG" width="600">
-<br>
-<img src="images/Anaconda02.PNG" width="600">
+<img src="images/Galaxy03.PNG" width="600">
 <br>
 
-> 2. Open a terminal and download Anaconda3 latest version (currently, 2020.11) using:
+> 2. Move to the folder you just created and install Git.
 <br>
-> curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
-<br>
-<br>
-<img src="images/Anaconda04.PNG" width="600">
+<img src="images/Galaxy05.PNG" width="600">
 <br>
 
 ## - Installing Anaconda
