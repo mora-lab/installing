@@ -17,9 +17,8 @@
 
 > 2. Open a terminal and download Anaconda3 latest version (currently, 2020.11) using:
 <br>
-```
-curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
-```
+`curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh`
+<br>
 <br>
 <img src="images/Anaconda04.PNG" width="400">
 <br>
