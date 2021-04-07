@@ -4,5 +4,6 @@
 1. VirtualBox
 2. Anaconda
 3. Galaxy
-4. Galaxy production server
-5. Planemo
+4. Galaxy-GSA
+5. Galaxy production server
+6. Planemo
