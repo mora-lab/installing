@@ -10,17 +10,17 @@
 
 > 1. Go to your Linux machine. In our case, open the Virtual Box and start the VM.
 <br>
-<img src="images/Anaconda01.PNG" width="400">
+<img src="images/Anaconda01.PNG" width="600">
 <br>
-<img src="images/Anaconda02.PNG" width="400">
+<img src="images/Anaconda02.PNG" width="600">
 <br>
 
 > 2. Open a terminal and download Anaconda3 latest version (currently, 2020.11) using:
 <br>
-`curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh`
+> curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
 <br>
 <br>
-<img src="images/Anaconda04.PNG" width="400">
+<img src="images/Anaconda04.PNG" width="600">
 <br>
 
 ## - Installing Anaconda
@@ -28,22 +28,21 @@
 
 > 3. Run the downloaded file by using:
 <br>
-```
-bash Anaconda3-2020.11-Linux-x86_64.sh
-```
+> bash Anaconda3-2020.11-Linux-x86_64.sh
 <br>
-<img src="images/Anaconda05.PNG" width="400">
+<br>
+<img src="images/Anaconda05.PNG" width="600">
 <br>
 
 > 4. Follow the installation procedure (accept license, location, etc).
 <br>
-<img src="images/Anaconda06.PNG" width="400">
+<img src="images/Anaconda06.PNG" width="600">
 <br>
-<img src="images/Anaconda07.PNG" width="400">
+<img src="images/Anaconda07.PNG" width="600">
 <br>
-<img src="images/Anaconda08.PNG" width="400">
+<img src="images/Anaconda08.PNG" width="600">
 <br>
-<img src="images/Anaconda09.PNG" width="400">
+<img src="images/Anaconda09.PNG" width="600">
 <br>
 
 ## - Activate Anaconda
@@ -51,13 +50,11 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 
 > 5. Go to the bin folder and activate Anaconda.
 <br>
-```
-cd /home/username/anaconda3/bin
+> cd /home/username/anaconda3/bin
 . ./activate
-```
-
 <br>
-<img src="images/Anaconda09.PNG" width="400">
+<br>
+<img src="images/Anaconda10.PNG" width="600">
 <br>
 
 
