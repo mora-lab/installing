@@ -1,16 +1,25 @@
 <img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
-# Installing Anaconda in Linux (CentOS-Stream-8)
+# Installing Anaconda in Linux
 <br>
 
-> The following are the instructions to install a virtual machine in Windows 10 (now referred as the "host" operative system). The chosen virtual machine is VirtualBox 6.1.18 and the system we will add "inside" the VM will be the CentOS-Stream-8 Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
+> The following are the instructions to install Anaconda3 (version 2020.11) on Linux. The tutorial uses a Linux CentOS-Stream-8 installed in a VirtualBox virtual machine 6.1.18, as described here: [Creating a CentOS-8 VM] (https://github.com/mora-lab/installing/tree/main/virtualbox). A similar procedure can be followed by other OS.
 
 ## - Downloads
 <br>
 
-> 1. Download VirtualBox from their website: [Download](https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe).
+> 1. Go to your Linux machine. In our case, open the Virtual Box and start the VM.
+<br>
+<img src="images/Anaconda01.PNG" width="400">
+<br>
+<img src="images/Anaconda02.PNG" width="400">
+<br>
 
-> 2. Download the ISO file with our guest OS (CentOS-Stream-8). You can find your favorite mirror site here: [Mirror sites](http://isoredirect.centos.org/centos/8-stream/isos/x86_64/). For this tutorial, we have downloaded our OS from here: [Download](http://download.nus.edu.sg/mirror/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20210402-dvd1.iso).
+> 2. Open a terminal and download Anaconda3 latest version (currently, 2020.11) using:
+```curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh```
+<br>
+<img src="images/Anaconda03.PNG" width="400">
+<br>
 
 ## - Installing VirtualBox
 <br>
