@@ -57,5 +57,30 @@
 <img src="images/Anaconda10.PNG" width="600">
 <br>
 
+## - Check Anaconda's functionality
+<br>
 
-*Last updated: Antonio Mora, May 5th, 2021*
+> 6. Test python version (3.8.5) and Jupyter notebooks.
+<br>
+<img src="images/Anaconda11.PNG" width="600">
+<br>
+<img src="images/Anaconda12.PNG" width="600">
+<br>
+
+> 7. Test Jupyter Lab and the Anaconda Navigator.
+<br>
+<img src="images/Anaconda13.PNG" width="600">
+<br>
+<img src="images/Anaconda14.PNG" width="600">
+<br>
+<img src="images/Anaconda15.PNG" width="600">
+<br>
+<img src="images/Anaconda16.PNG" width="600">
+<br>
+
+## - Deactivate
+<br>
+<img src="images/Anaconda17.PNG" width="600">
+<br>
+
+*Last updated: Antonio Mora, April 7th, 2021*
