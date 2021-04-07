@@ -1,6 +1,6 @@
 # Installation procedures for different software
 
-## A workflow for installing Galaxy:
+## 1. A workflow for installing Galaxy:
 ### Basic:
 1. VirtualBox: ...
 2. Anaconda: ...
