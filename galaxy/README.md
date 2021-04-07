@@ -43,7 +43,7 @@ Make sure that Anaconda's base environment is activated.
 ## - Running Galaxy
 <br>
 
-> 4. Move to the *Galaxy/galaxy* directory and run the *run.sh* file.
+> 4. Move to the *Galaxy/galaxy* directory and run the `run.sh` file.
 <br>
 <img src="images/Galaxy08.PNG" width="600">
 <br>
@@ -57,7 +57,7 @@ Make sure that Anaconda's base environment is activated.
 
 > 6. Close Galaxy (close web browser; Ctrl+C to the process in the terminal).
 
-> 7. *Optional:* You can see that Galaxy has created its own pythin environment called *_galaxy_*.
+> 7. *Optional:* You can see that Galaxy has created its own python environment called `_ galaxy _`.
 <br>
 <img src="images/Galaxy11.PNG" width="600">
 <br>
@@ -65,7 +65,7 @@ Make sure that Anaconda's base environment is activated.
 ## - Create a Galaxy account
 <br>
 
-> 8. Again, go to *Galaxy/galaxy* and run the *run.sh* file.
+> 8. Again, go to *Galaxy/galaxy* and run the `run.sh` file.
 <br>
 <img src="images/Galaxy12.PNG" width="600">
 <br>
@@ -73,6 +73,14 @@ Make sure that Anaconda's base environment is activated.
 > 9. Click on *Login or Register* and fill the information to open a new Galaxy account.
 <br>
 <img src="images/Galaxy13.PNG" width="600">
+<br>
+
+> 10. Restart Galaxy and you will find you will be logged in as your user name.
+<br>
+<img src="images/Galaxy14.PNG" width="600">
+<br>
+
+## - Changes to Galaxy configuration (Internet connection and Administrator account)
 <br>
 
 
