@@ -48,7 +48,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 ## - Activate Anaconda
 <br>
 
-> 5. Go to the bin folder and activate **Anaconda**.
+> 5. Go to the *bin* folder and activate **Anaconda**.
 ```
 cd /home/username/anaconda3/bin
 . ./activate
