@@ -51,6 +51,7 @@
 > 5. Go to the bin folder and activate Anaconda.
 <br>
 > cd /home/username/anaconda3/bin
+<br>
 > . ./activate
 <br>
 <br>
