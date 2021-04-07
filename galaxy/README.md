@@ -8,10 +8,10 @@
 
 ### If you are in Windows:
 1. Create a Linux Virtual Machine. Follow the instructions here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/tree/main/virtualbox).
-2. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
+2. Install **Anaconda**. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
 ### If you are in Linux:
-1. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
+1. Install **Anaconda**. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
 ### One more thing before starting...
 Make sure that Anaconda's base environment is activated.
@@ -32,7 +32,7 @@ mkdir Galaxy
 <img src="images/Galaxy03.PNG" width="600">
 <br>
 
-> 2. Move to the folder you just created and install Git.
+> 2. Move to the folder you just created and install **Git**.
 ```
 sudo yum install git
 ```
@@ -41,7 +41,7 @@ sudo yum install git
 <img src="images/Galaxy05.PNG" width="600">
 <br>
 
-> 3. Get Galaxy using Git.
+> 3. Get Galaxy using **Git**.
 ```
 git clone -b release_21.01 https://github.com/galaxyproject/galaxy.git
 ```
@@ -69,7 +69,7 @@ git clone -b release_21.01 https://github.com/galaxyproject/galaxy.git
 
 > 6. Close Galaxy (close web browser; Ctrl+C to the process in the terminal).
 
-> 7. *Optional:* You can see that Galaxy has created its own python environment called `_ galaxy _`.
+> 7. *Optional:* You can see that Galaxy has created its own **python** environment called `_ galaxy _`.
 <br>
 <img src="images/Galaxy11.PNG" width="600">
 <br>
