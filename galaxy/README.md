@@ -1,17 +1,19 @@
 <img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
-# Installing Galaxy in Linux
+# Installing Galaxy
 
-> The following are the instructions to install Galaxy in a CentOS-Stream-8 OS running inside a VirtualBox VM. Installation in similar environments follows similar steps.
+> The following are the instructions to install Galaxy in a CentOS-Stream-8 OS. Installation in similar environments follows similar steps.
 
-> If you have a Windows OS with a Linux VM, go to step 1. If you have a Windows OS without a Linux VM, please first visit our instructions to install VirtualBox: Here. If you are working with a CentOS Linux distribution, go directly to step 2.
+## Pre-requisites
 
-# Installing Anaconda in Linux
-<br>
+###If you are in Windows:
+1. Create a Linux Virtual Machine. Follow the instructions here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/tree/main/virtualbox).
+2. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
-> The following are the instructions to install Anaconda3 (version 2020.11) on Linux. The tutorial uses a Linux CentOS-Stream-8 installed in a VirtualBox virtual machine 6.1.18, as described here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/tree/main/virtualbox). A similar procedure can be followed by other OS.
+###If you are in Linux:
+1. Install Anaconda. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
 
-## - Downloads
+## - Download Galaxy using Git
 <br>
 
 > 1. Go to your Linux machine. In our case, open the Virtual Box and start the VM.
