@@ -79,7 +79,7 @@ cd /home/username/anaconda3/bin
 <br>
 
 ## - Deactivate
-To leave the environment, use: `conda deactivate`
+> 8. To leave the environment, use: `conda deactivate`
 <br>
 <img src="images/Anaconda17.PNG" width="600">
 <br>
