@@ -34,8 +34,9 @@
 
 2.2. Anaconda: ...
 
-2.3. RStudio
+2.3. RStudio: ...
 
 2.4. py2neo and Rneo4j: ...
+<br>
 
 *Last updated: April 8th, 2021*
