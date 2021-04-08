@@ -152,4 +152,38 @@ vim config/galaxy.yml
 <img src="images/Galaxy30.PNG" width="600">
 <br>
 
-*Last updated: Antonio Mora, April 7th, 2021*
+## - Installing Galaxy tools
+<br>
+
+> 19. From the `Administration` window, select `Install and Uninstall`. You will get access to the **Toolshed**.
+<br>
+<img src="images/Galaxy31.PNG" width="600">
+<br>
+
+> 20. As an example of installing tools, select the category `ChIP-seq` and the tool **CEAS**.
+<br>
+<img src="images/Galaxy32.PNG" width="600">
+<br>
+<img src="images/Galaxy33.PNG" width="600">
+<br>
+
+> 21. Find the latest tool version and press *Install*. Galaxy will ask you the section in which you want to install it. You can also create a new section (here, we create a section called `ChIP-seq`).
+<br>
+<img src="images/Galaxy34.PNG" width="600">
+<br>
+<img src="images/Galaxy35.PNG" width="600">
+<br>
+<img src="images/Galaxy36.PNG" width="600">
+<br>
+
+> 22. After the tool is installed, you can find it either selecting `Installed only` at the `Administration` menu or going to `Analyze data` and finding the tool at the left-side tool list (under the `ChIP-seq` category).
+<br>
+<img src="images/Galaxy37.PNG" width="600">
+<br>
+<img src="images/Galaxy38.PNG" width="600">
+<br>
+
+> 23. That's all. Now you are ready to start working on your own Galaxy instance.
+<br>
+
+*Last updated: Antonio Mora, April 8th, 2021*
