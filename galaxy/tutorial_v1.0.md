@@ -184,5 +184,6 @@ vim config/galaxy.yml
 <br>
 
 > 23. That's all. Now you are ready to start working on your own Galaxy instance.
+<br>
 
 *Last updated: Antonio Mora, April 8th, 2021*
