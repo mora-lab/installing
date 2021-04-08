@@ -7,11 +7,11 @@
 ## - Pre-requisites
 
 ### If you are in Windows:
-1. Create a Linux Virtual Machine. Follow the instructions here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/tree/main/virtualbox).
-2. Install **Anaconda**. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
+1. Create a Linux Virtual Machine. Follow the instructions here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md).
+2. Install **Anaconda**. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md).
 
 ### If you are in Linux:
-1. Install **Anaconda**. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/tree/main/anaconda).
+1. Install **Anaconda**. Follow the instructions here: [Install Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md).
 
 ### One more thing before starting...
 Make sure that Anaconda's base environment is activated.
