@@ -15,7 +15,7 @@
 <img src="images/Anaconda02.PNG" width="600">
 <br>
 
-> 2. Open a terminal and download **R**. There are several alternative ways to do this (using either *dnf*, *yum*, *conda*, and others), but here we wil use `conda`:
+> 2. Open a terminal and download **R**. There are several alternative ways to do this (using either *dnf*, *yum*, *conda*, and others), but here we wil use `conda` (note: given that we are using `conda`, it is also recommended to install the R packages via `conda`).
 ```
 conda install R
 ```
@@ -36,8 +36,7 @@ R --version
 ## - Download and install RStudio
 <br>
 
-> We have two options: Either downloading **RStudio-Desktop** or **RStudio-Server**. The code in each case is shown below but we will only follow the first case.
-> 3. Run the downloaded file by using:
+> 4. We have two options: Either downloading **RStudio-Desktop** or **RStudio-Server**. The code in each case is shown below but in this tutorial we will only follow the first case (RStudio-Server will be discussed in a different tutorial).
 ```
 wget https://download1.rstudio.org/desktop/centos8/x86_64/rstudio-1.4.1106-x86_64.rpm
 sudo yum install rstudio-1.4.1106-x86_64.rpm
@@ -47,57 +46,14 @@ wget https://download2.rstudio.org/server/centos8/x86_64/rstudio-server-rhel-1.4
 sudo yum install rstudio-server-rhel-1.4.1106-x86_64.rpm
 ```
 <br>
-<img src="images/Anaconda05.PNG" width="600">
+<img src="images/RStudio07.PNG" width="600">
 <br>
 
-> 4. Follow the installation procedure (accept license, location, etc).
+> 5. Run **RStudio**.
 <br>
-<img src="images/Anaconda06.PNG" width="600">
+<img src="images/RStudio08.PNG" width="600">
 <br>
-<img src="images/Anaconda07.PNG" width="600">
-<br>
-<img src="images/Anaconda08.PNG" width="600">
-<br>
-<img src="images/Anaconda09.PNG" width="600">
-<br>
-
-## - Activate Anaconda
-<br>
-
-> 5. Go to the *bin* folder and activate **Anaconda**.
-```
-cd /home/username/anaconda3/bin
-. ./activate
-```
-<br>
-<img src="images/Anaconda10.PNG" width="600">
-<br>
-
-## - Check Anaconda's functionality
-<br>
-
-> 6. Test **python** version (3.8.5) and **Jupyter notebooks**.
-<br>
-<img src="images/Anaconda11.PNG" width="600">
-<br>
-<img src="images/Anaconda12.PNG" width="600">
-<br>
-
-> 7. Test **Jupyter Lab** and the **Anaconda Navigator**.
-<br>
-<img src="images/Anaconda13.PNG" width="600">
-<br>
-<img src="images/Anaconda14.PNG" width="600">
-<br>
-<img src="images/Anaconda15.PNG" width="600">
-<br>
-<img src="images/Anaconda16.PNG" width="600">
-<br>
-
-## - Deactivate
-> 8. To leave the environment, use: `conda deactivate`
-<br>
-<img src="images/Anaconda17.PNG" width="600">
+<img src="images/RStudio09.PNG" width="600">
 <br>
 
 *Last updated: Antonio Mora, April 8th, 2021*
