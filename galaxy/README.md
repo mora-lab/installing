@@ -2,7 +2,7 @@
 
 # Installing Galaxy
 
-> The following are the instructions to install Galaxy in a CentOS-Stream-8 OS. Installation in similar environments follows similar steps.
+> The following are the instructions to install Galaxy in a **CentOS-Stream-8** OS. Installation in similar environments follows similar steps.
 
 ## - Pre-requisites
 
@@ -183,7 +183,10 @@ vim config/galaxy.yml
 <img src="images/Galaxy38.PNG" width="600">
 <br>
 
-> 23. That's all. Now you are ready to start working on your own Galaxy instance.
+> 23. Now you can search and install any other tools of your interest.
+<br>
+
+> 24. That's all. Now you are ready to start working on your own Galaxy instance.
 <br>
 
 *Last updated: Antonio Mora, April 8th, 2021*
