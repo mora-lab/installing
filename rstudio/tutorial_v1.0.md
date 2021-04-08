@@ -5,7 +5,7 @@
 
 > The following are the instructions to install **RStudio** on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox** virtual machine 6.1.18, as described here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md). A similar procedure can be followed by other OS.
 
-## - Download and install R
+## - Start
 <br>
 
 > 1. Go to your Linux machine. In our case, open the **VirtualBox** and start the VM.
@@ -13,6 +13,9 @@
 <img src="images/Anaconda01.PNG" width="600">
 <br>
 <img src="images/Anaconda02.PNG" width="600">
+<br>
+
+## - Download and install R
 <br>
 
 > 2. Open a terminal and download **R**. There are several alternative ways to do this (using either *dnf*, *yum*, *conda*, and others), but here we wil use `conda` (note: given that we are using `conda`, it is also recommended to install the R packages via `conda`).
