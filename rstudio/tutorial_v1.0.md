@@ -20,9 +20,9 @@
 conda install R
 ```
 <br>
-<img src="images/Rstudio04.PNG" width="600">
+<img src="images/Rstudio4.PNG" width="600">
 <br>
-<img src="images/Rstudio05.PNG" width="600">
+<img src="images/Rstudio5.PNG" width="600">
 <br>
 
 > 3. Check R version (in our case, it is 3.5.1).
@@ -30,7 +30,7 @@ conda install R
 R --version
 ```
 <br>
-<img src="images/Rstudio06.PNG" width="600">
+<img src="images/Rstudio6.PNG" width="600">
 <br>
 
 ## - Download and install RStudio
@@ -46,14 +46,14 @@ wget https://download2.rstudio.org/server/centos8/x86_64/rstudio-server-rhel-1.4
 sudo yum install rstudio-server-rhel-1.4.1106-x86_64.rpm
 ```
 <br>
-<img src="images/RStudio07.PNG" width="600">
+<img src="images/Rstudio7.PNG" width="600">
 <br>
 
 > 5. Run **RStudio**.
 <br>
-<img src="images/RStudio08.PNG" width="600">
+<img src="images/Rstudio8.PNG" width="600">
 <br>
-<img src="images/RStudio09.PNG" width="600">
+<img src="images/Rstudio9.PNG" width="600">
 <br>
 
 *Last updated: Antonio Mora, April 8th, 2021*
