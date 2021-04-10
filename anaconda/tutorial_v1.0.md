@@ -3,7 +3,7 @@
 # Installing Anaconda in Linux
 <br>
 
-> The following are the instructions to install **Anaconda3** (version 2020.11) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox** virtual machine 6.1.18, as described here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md). A similar procedure can be followed by other OS.
+> The following are the instructions to install **Anaconda3** (version 2020.11) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine, as described here: [Creating a CentOS-8 VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md). A similar procedure can be followed using other OS.
 
 ## - Downloads
 <br>
@@ -45,10 +45,10 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 <img src="images/Anaconda09.PNG" width="600">
 <br>
 
-## - Activate Anaconda
+## - Activate python's base environment
 <br>
 
-> 5. Go to the *bin* folder and activate **Anaconda**.
+> 5. Go to the *bin* folder and activate **Anaconda**'s base environment.
 ```
 cd /home/username/anaconda3/bin
 . ./activate
