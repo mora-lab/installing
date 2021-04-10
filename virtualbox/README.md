@@ -3,7 +3,7 @@
 # Installing Oracle VM VirtualBox
 <br>
 
-> The following are the instructions to install a virtual machine in Windows 10 (now referred as the "host" operative system). The chosen virtual machine is VirtualBox 6.1.18 and the system we will add "inside" the VM will be the CentOS-Stream-8 Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
+> The following are the instructions to install a virtual machine in **Windows 10** (now referred as the "host" operative system). The chosen virtual machine is **VirtualBox 6.1.18** and the system we will add "inside" the VM will be the **CentOS-Stream-8** Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
 
 ## - Downloads
 <br>
@@ -79,7 +79,7 @@
 ## - Installing CentOS-8
 <br>
 
-> 10. Now we can proceed to install the OS for our new VM. First, select the downloaded ISO file.
+> 10. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, and, finally, click on "Create" and select the downloaded ISO file.
 
 <br>
 <img src="images/VBox19.PNG" width="400">
@@ -178,10 +178,10 @@
 <img src="images/VBox51.PNG" width="400">
 <br>
 
-> 21. That's it. Now you have a fully functional CentOS-Stream-8 VM.
+> 21. That's it. Now you have a fully functional **CentOS-Stream-8** VM in a **Windows 10** computer.
 
 <br>
 <img src="images/VBox52.PNG" width="800">
 <br>
 
-*Last updated: Antonio Mora, April 5th, 2021*
+*Last updated: Antonio Mora, April 10th, 2021*
