@@ -178,7 +178,7 @@
 <img src="images/VBox51.PNG" width="400">
 <br>
 
-> 21. That's it. Now you have a fully functional CentOS-Stream-8 VM.
+> 21. That's it. Now you have a fully functional **CentOS-Stream-8** VM in a **Windows 10** computer.
 
 <br>
 <img src="images/VBox52.PNG" width="800">
