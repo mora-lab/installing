@@ -3,7 +3,7 @@
 # Installing Planemo
 <br>
 
-> The following are the instructions to install **Planemo** (version xxx) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine. A similar procedure can be followed using other OS.
+> The following are the instructions to install **Planemo** (version 0.74.3) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine. A similar procedure can be followed using other OS.
 
 ## - Before starting
 <br>
@@ -11,21 +11,29 @@
 > 1. In order to install Planemo, you must previously have installed python, Galaxy and R/Rstudio in a Linux environment.
 If you don't have them installed yet, follow our tutorials:
 
-[Creating a CentOS-Stream-8 VirtualBox VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md)
-[Installing Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md)
-[Installing Galaxy](https://github.com/mora-lab/installing/blob/main/galaxy/tutorial_v1.0.md)
-[Installing Rstudio](https://github.com/mora-lab/installing/blob/main/rstudio/tutorial_v1.0.md)
+[Creating a CentOS-Stream-8 VirtualBox VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md)<br>
+[Installing Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md)<br>
+[Installing Galaxy](https://github.com/mora-lab/installing/blob/main/galaxy/tutorial_v1.0.md)<br>
+[Installing Rstudio](https://github.com/mora-lab/installing/blob/main/rstudio/tutorial_v1.0.md)<br>
 
 > 2. Go to your Linux machine. In our case, open **VirtualBox** and start the VM. Open a terminal in your Linux environment.
 
 ## - Download and install
 <br>
 
-> 3. 
+> 3. Download and install Planemo from conda.
+```
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda install planemo
+```
+
 <br>
-<img src="images/Anaconda01.PNG" width="600">
+<img src="images/Planem01.PNG" width="600">
 <br>
-<img src="images/Anaconda02.PNG" width="600">
+<img src="images/Planem02.PNG" width="600">
+<br>
+<img src="images/Planem03.PNG" width="600">
 <br>
 
 > 2. Open a terminal and download **Anaconda3** latest version (currently, 2020.11) using:
