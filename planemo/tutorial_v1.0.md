@@ -81,7 +81,7 @@ write.table(x, file = para3)
 <img src="images/Planem07.PNG" width="800">
 <br>
 
-*commandArgs()* provides access to a copy of the command line arguments supplied when this R session vas invoked.
+> *commandArgs()* provides access to a copy of the command line arguments supplied when this R session vas invoked.
 
 > 7. Save it as **test1.R** in a *test1* directory.
 
