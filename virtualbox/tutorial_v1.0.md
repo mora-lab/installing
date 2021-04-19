@@ -194,7 +194,7 @@
 <img src="images/VBox55.PNG" width="600">
 <br>
 
-> 23. Fron the VM, you can find the USB drive at *Devices - USB - NameoftheUSB*.
+> 23. Open the VM, and find the USB drive at *Devices - USB - NameoftheUSB*.
 
 <br>
 <img src="images/VBox56.PNG" width="600">
