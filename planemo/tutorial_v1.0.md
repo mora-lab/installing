@@ -230,7 +230,7 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 <br>
 <img src="images/Planem23.PNG" width="600">
 <br>
-<img src="images/Planem24.PNG" width="600">
+<img src="images/Planem24.png" width="600">
 <br>
 
 > 19. Add values to both parameters and run the tool. You will see a new history element appear with our results.
