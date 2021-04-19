@@ -178,10 +178,38 @@
 <img src="images/VBox51.PNG" width="400">
 <br>
 
-> 21. That's it. Now you have a fully functional **CentOS-Stream-8** VM in a **Windows 10** computer.
+> 21. After restarting, you can immediately observe the changes in the screen. Also, you can now mount an USB drive.
+
+> If you want to mount an USB drive, power off the VM and open the Settings.
+
+<br>
+<img src="images/VBox53.PNG" width="600">
+<br>
+
+> 22. Go to *Settings - USB*, press the right side icon, and find the device you want to mount.
+
+<br>
+<img src="images/VBox54.PNG" width="600">
+<br>
+<img src="images/VBox55.PNG" width="600">
+<br>
+
+> 23. Open the VM, and find the USB drive at *Devices - USB - NameoftheUSB*.
+
+<br>
+<img src="images/VBox56.PNG" width="600">
+<br>
+
+> 24. You can open the file manager and see the USB (in our case, appears as a "32 GB volume").
+
+<br>
+<img src="images/VBox57.PNG" width="600">
+<br>
+
+> 25. That's it. Now you have a fully functional **CentOS-Stream-8** VM in a **Windows 10** computer.
 
 <br>
 <img src="images/VBox52.PNG" width="800">
 <br>
 
-*Last updated: Antonio Mora, April 10th, 2021*
+*Last updated: Antonio Mora, April 19th, 2021*
