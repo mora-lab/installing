@@ -201,7 +201,7 @@ sudo firewall-cmd --list-ports
 ```
 
 <br>
-<img src="images/Planem21.PNG" width="800">
+<img src="images/Planem21.PNG" width="600">
 <br>
 
 ## - Use Planemo to test the tool:
@@ -216,7 +216,7 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 > (This command may take a long time)
 
 <br>
-<img src="images/Planem20.PNG" width="800">
+<img src="images/Planem20.PNG" width="600">
 <br>
 
 > 17. Open *localhost:9090* with a web browser.
