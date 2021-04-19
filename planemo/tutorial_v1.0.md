@@ -86,7 +86,7 @@ write.table(x, file = para3)
 <img src="images/Planem08.PNG" width="600">
 <br>
 
-> 8. Open a terminal form **Rstudio** and run the **R** script.
+> 8. Open a terminal in **Rstudio** and run the **R** script.
 ```
 cd Galaxy/test1/
 Rscript test1.R 24 53 test1_result.txt
@@ -140,7 +140,7 @@ planemo tool_init --force \
 
 
 > 13. Modify the *Rscript* command, the input arguments, and the help in the XML file, as described:
-...
+```
 <tool id="test1" name="My first Galaxy tool" version="0.1.0" python_template_version
 <description>Pass parameters to R and generate a text file with them</description
 <requirements>
@@ -176,5 +176,21 @@ The following is a link to help us write attributes for all kinds of parameters:
 <br>
 <img src="images/Planem15.PNG" width="600">
 <br>
+
+## - Update Galaxy:
+
+> 14. Go to *Galaxy/galaxy/config* and create the file **tool_data_table_conf.xml** from the original **tool_data_table_conf.xml.sample**
+```
+cd config
+cp tool_data_table_conf.xml.sample tool_data_table_conf.xml
+ls tool_data*
+```
+
+<br>
+<img src="images/Planem19.PNG" width="600">
+<br>
+
+## - Use Planemo to test the tool:
+
 
 *Last updated: Antonio Mora, April 19th, 2021*
