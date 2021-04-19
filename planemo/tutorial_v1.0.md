@@ -193,7 +193,54 @@ ls tool_data*
 <img src="images/Planem19.PNG" width="600">
 <br>
 
+> 15. Open the port *9090* for Galaxy Planemo.
+```
+sudo firewall-cmd --zone=public --permanent --add-port=9090/tcp
+sudo firewall-cmd --reload 
+sudo firewall-cmd --list-ports
+```
+
+<br>
+<img src="images/Planem21.PNG" width="600">
+<br>
+
 ## - Use Planemo to test the tool:
 
+> 16. Test the tool using *planemo s*.
+```
+planemo s --galaxy_root /home/ant/Galaxy/galaxy \
+--galaxy_python_version 3.6 \
+--host 0.0.0.0 \
+--port 9090
+```
+> (This command may take a long time)
+
+<br>
+<img src="images/Planem20.PNG" width="600">
+<br>
+
+> 17. Open *localhost:9090* with a web browser.
+
+<br>
+<img src="images/Planem22.PNG" width="600">
+<br>
+
+> 18. Find the tool called *'Test how to pass parameters for R'*. You can see that the labels and boxes correspond to the XML file.
+
+<br>
+<img src="images/Planem23.PNG" width="600">
+<br>
+<img src="images/Planem24.PNG" width="600">
+<br>
+
+> 19. Add values to both parameters and run the tool. You will see a new history element appear with our results.
+
+<br>
+<img src="images/Planem25.PNG" width="600">
+<br>
+<img src="images/Planem26.PNG" width="600">
+<br>
+<img src="images/Planem27.PNG" width="600">
+<br>
 
 *Last updated: Antonio Mora, April 19th, 2021*
