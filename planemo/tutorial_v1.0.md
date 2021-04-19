@@ -40,7 +40,7 @@ conda install planemo
 <img src="images/Planem03.PNG" width="600">
 <br>
 
-> 4. Confirm the version of **Planemo** that you have installed (in our case, it is Planemo v0.74.3).
+> 4. Verify the version of **Planemo** that you have installed (in our case, it is Planemo v0.74.3).
 
 <br>
 <img src="images/Planem04.PNG" width="600">
@@ -77,16 +77,16 @@ x <- r_test(para1 = para1, para2 = para2)
 write.table(x, file = para3)
 ```
 
-*commandArgs()* provides access to a copy of the command line arguments supplied when this R session vas invoked.
+<br>
+<img src="images/Planem07.PNG" width="800">
+<br>
 
-<br>
-<img src="images/Planem07.PNG" width="600">
-<br>
+*commandArgs()* provides access to a copy of the command line arguments supplied when this R session vas invoked.
 
 > 7. Save it as **test1.R** in a *test1* directory.
 
 <br>
-<img src="images/Planem08.PNG" width="600">
+<img src="images/Planem08.PNG" width="800">
 <br>
 
 > 8. Open a terminal in **Rstudio** and run the **R** script.
@@ -96,19 +96,19 @@ Rscript test1.R 24 53 test1_result.txt
 ```
 
 <br>
-<img src="images/Planem09.PNG" width="600">
+<img src="images/Planem09.PNG" width="800">
 <br>
 
 > 9. Verify that you obtained the result file.
 
 <br>
-<img src="images/Planem10.PNG" width="600">
+<img src="images/Planem10.PNG" width="800">
 <br>
 
 > 10. You can also open the result file using **Rstudio**.
 
 <br>
-<img src="images/Planem11.PNG" width="600">
+<img src="images/Planem11.PNG" width="800">
 <br>
 
 ## - Using Planemo to create the tool definition file:
@@ -130,15 +130,15 @@ planemo tool_init --force \
 ```
 
 <br>
-<img src="images/Planem12.PNG" width="600">
+<img src="images/Planem12.PNG" width="800">
 <br>
 
 > 12. Verify that the **test1.xml** file has been created. You can open this file in **Rstudio** to review its content.
 
 <br>
-<img src="images/Planem13.PNG" width="600">
+<img src="images/Planem13.PNG" width="800">
 <br>
-<img src="images/Planem14.PNG" width="600">
+<img src="images/Planem14.PNG" width="800">
 <br>
 
 
@@ -174,11 +174,11 @@ planemo tool_init --force \
 </tool>
 ```
 
-The following is a link to help us write attributes for all kinds of parameters: [Link](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-inputs-param).
+<br>
+<img src="images/Planem15.PNG" width="800">
+<br>
 
-<br>
-<img src="images/Planem15.PNG" width="600">
-<br>
+The following is a link to help us write attributes for all kinds of parameters: [Link](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-inputs-param).
 
 ## - Update Galaxy:
 
