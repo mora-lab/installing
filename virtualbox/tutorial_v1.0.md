@@ -178,7 +178,8 @@
 <img src="images/VBox51.PNG" width="400">
 <br>
 
-> 21. You can immediately observe the changes in the screen. Also, you can now mount an USB drive: Power off the VM and open the Settings.
+> 21. After restarting, you can immediately observe the changes in the screen. Also, you can now mount an USB drive.
+> If you want to mount an USB drive, power off the VM and open the Settings.
 
 <br>
 <img src="images/VBox53.PNG" width="400">
@@ -198,7 +199,7 @@
 <img src="images/VBox56.PNG" width="400">
 <br>
 
-> 24. You can open the file manager and see the USB (in our case, appears as a "32 GM voume").
+> 24. You can open the file manager and see the USB (in our case, appears as a "32 GB volume").
 
 <br>
 <img src="images/VBox57.PNG" width="400">
