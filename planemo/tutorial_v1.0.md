@@ -13,10 +13,10 @@
 > 1. In order to install Planemo, you must previously have installed **python**, **Galaxy** and **R/Rstudio** in a Linux environment.
 If you don't have them installed yet, follow our tutorials:
 
-[Creating a CentOS-Stream-8 VirtualBox VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md)<br>
-[Installing Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md)<br>
-[Installing Galaxy](https://github.com/mora-lab/installing/blob/main/galaxy/tutorial_v1.0.md)<br>
-[Installing Rstudio](https://github.com/mora-lab/installing/blob/main/rstudio/tutorial_v1.0.md)<br>
+[(i) Creating a CentOS-Stream-8 VirtualBox VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md)<br>
+[(ii) Installing Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md)<br>
+[(iii) Installing Galaxy](https://github.com/mora-lab/installing/blob/main/galaxy/tutorial_v1.0.md)<br>
+[(iv) Installing Rstudio](https://github.com/mora-lab/installing/blob/main/rstudio/tutorial_v1.0.md)<br>
 
 > If you have them installed, please verify that you are in the conda base environment.
 
@@ -201,7 +201,7 @@ sudo firewall-cmd --list-ports
 ```
 
 <br>
-<img src="images/Planem21.PNG" width="600">
+<img src="images/Planem21.PNG" width="800">
 <br>
 
 ## - Use Planemo to test the tool:
@@ -216,31 +216,31 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 > (This command may take a long time)
 
 <br>
-<img src="images/Planem20.PNG" width="600">
+<img src="images/Planem20.PNG" width="800">
 <br>
 
 > 17. Open *localhost:9090* with a web browser.
 
 <br>
-<img src="images/Planem22.PNG" width="600">
+<img src="images/Planem22.PNG" width="800">
 <br>
 
 > 18. Find the tool called *'Test how to pass parameters for R'*. You can see that the labels and boxes correspond to the XML file.
 
 <br>
-<img src="images/Planem23.PNG" width="600">
+<img src="images/Planem23.PNG" width="800">
 <br>
-<img src="images/Planem24.png" width="600">
+<img src="images/Planem24.png" width="800">
 <br>
 
 > 19. Add values to both parameters and run the tool. You will see a new history element appear with our results.
 
 <br>
-<img src="images/Planem25.PNG" width="600">
+<img src="images/Planem25.PNG" width="800">
 <br>
-<img src="images/Planem26.PNG" width="600">
+<img src="images/Planem26.PNG" width="800">
 <br>
-<img src="images/Planem27.PNG" width="600">
+<img src="images/Planem27.PNG" width="800">
 <br>
 
 *Last updated: Antonio Mora, April 19th, 2021*
