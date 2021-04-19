@@ -3,7 +3,7 @@
 # Installing Planemo
 <br>
 
-> **Planemo** is a command-line utility "to assist in developing Galaxy and Common Workflow Language artifacts - including tools, workflows, and training materials". More information about **Planemo** can be found [here](https://).
+> **Planemo** is a command-line utility "to assist in developing Galaxy and Common Workflow Language artifacts - including tools, workflows, and training materials". More information about **Planemo** can be found [here](https://planemo.readthedocs.io/en/latest/readme.html).
 
 > The following are the instructions to install **Planemo** (version 0.74.3) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine. A similar procedure can be followed using other OS.
 
@@ -17,6 +17,8 @@ If you don't have them installed yet, follow our tutorials:
 [Installing Anaconda](https://github.com/mora-lab/installing/blob/main/anaconda/tutorial_v1.0.md)<br>
 [Installing Galaxy](https://github.com/mora-lab/installing/blob/main/galaxy/tutorial_v1.0.md)<br>
 [Installing Rstudio](https://github.com/mora-lab/installing/blob/main/rstudio/tutorial_v1.0.md)<br>
+
+> If you have them installed, please verify that you are in the conda base environment.
 
 > 2. Go to your Linux machine. In our case, open **VirtualBox** and start the VM. Open a terminal in your Linux environment.
 
@@ -44,7 +46,7 @@ conda install planemo
 <img src="images/Planem04.PNG" width="600">
 <br>
 
-## Building an R test tool:
+## - Building an R test tool:
 
 > 5. Open **Rstudio**.
 
@@ -109,9 +111,9 @@ Rscript test1.R 24 53 test1_result.txt
 <img src="images/Planem11.PNG" width="600">
 <br>
 
-## Using Planemo to create the tool definition file:
+## - Using Planemo to create the tool definition file:
 
-> The Galaxy tool definition file is an XML file wrapping a tool written in another language. The XML file describes the user interface for the tool, how to invoke it, what options to pass, and what files it will produce as output. It does contain multiple tags and attributes. More information about the XML tool definition file can be found [here](https://).
+> The Galaxy tool definition file is an XML file wrapping a tool written in another language. The XML file describes the user interface for the tool, how to invoke it, what options to pass, and what files it will produce as output. It does contain multiple tags and attributes. More information about the XML tool definition file can be found [here](https://docs.galaxyproject.org/en/latest/dev/schema.html).
 
 > 11. Run the following command in a terminal to build a tool based on our **R** function.
 ```
@@ -172,7 +174,7 @@ planemo tool_init --force \
 </tool>
 ```
 
-The following is a link to help us write attributes for all kinds of parameters: [Link](https://).
+The following is a link to help us write attributes for all kinds of parameters: [Link](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-inputs-param).
 
 <br>
 <img src="images/Planem15.PNG" width="600">
