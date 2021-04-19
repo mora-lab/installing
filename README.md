@@ -6,19 +6,19 @@
 
 ### Basic Galaxy:
 
-1.1. VirtualBox: ...
+1.1. VirtualBox: ... [Here](https://github.com/mora-lab/installing/tree/main/virtualbox)
 
-1.2. Anaconda: ...
+1.2. Anaconda: ... [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
-1.3. Galaxy: ...
+1.3. Galaxy: ... [Here](https://github.com/mora-lab/installing/tree/main/galaxy)
 
 1.4. Galaxy ISOs (Galaxy-GSA): ...
 
 ### Building Galaxy tools:
 
-1.5. RStudio
+1.5. RStudio: ... [Here](https://github.com/mora-lab/installing/tree/main/rstudio)
 
-1.6. Planemo: ...
+1.6. Planemo: ... [Here](https://github.com/mora-lab/installing/tree/main/planemo)
 
 ### Advanced Galaxy:
 
