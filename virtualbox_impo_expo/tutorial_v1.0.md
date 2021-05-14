@@ -2,6 +2,7 @@
 
 # Importing and exporting virtual machines
 <br>
+
 > Instead of creating a new VM from scratch, as we learned [here](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md), we might need to either import an existing virtual machine, with all its software and data, or export a virtual machine with all the software and data that we might have created. Two easy ways of doing that is by sharing a Virtual Disk Image (VDI) or an appliance (Open Virtualization format Archive, OVA).
 
 ## - Importing virtual disk images (VDI files):
