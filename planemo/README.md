@@ -66,7 +66,7 @@ para3 <- args[3]
 
 # R function
 r_test <- function(para1 = para1, para2 = para2){
-	x = paste0("parameter1 is:", para1, "; parameter2 is:", para2)
+	x = paste0("Parameter1 is:", para1, ". Parameter2 is:", para2)
 	return(x)
 }
 
@@ -83,7 +83,7 @@ write.table(x, file = para3)
 
 > *commandArgs()* provides access to a copy of the command line arguments supplied when this R session vas invoked.
 
-> 7. Save it as **test1.R** in a *test1* directory.
+> 7. Save it as `galaxy/tools/test1/test1.R`.
 
 <br>
 <img src="images/Planem08.PNG" width="800">
@@ -91,7 +91,7 @@ write.table(x, file = para3)
 
 > 8. Open a terminal in **Rstudio** and run the **R** script.
 ```
-cd Galaxy/test1/
+cd ~/Galaxy/galaxy/tools/test1/
 Rscript test1.R 24 53 test1_result.txt
 ```
 
@@ -142,7 +142,7 @@ planemo tool_init --force \
 <br>
 
 
-> 13. Modify the *Rscript* command, the input arguments, and the help in the XML file, as described:
+> 13. Modify: (i) the *Rscript* command, (ii) the input arguments, and (iii) the help in the XML file, as described:
 ```
 <tool id="test1" name="My first Galaxy tool" version="0.1.0" python_template_version
 <description>Pass parameters to R and generate a text file with them</description
@@ -167,7 +167,7 @@ planemo tool_init --force \
 </test>
 </tests>
 <help><![CDATA[
-	#usage : Rscript test1.R <para1> <para2> <output_file>
+	#Usage : Rscript test1.R <para1> <para2> <output_file>
 	<para1> and <para2> are text
 	<output_file> is a text file
 ]]></help>
@@ -204,7 +204,7 @@ sudo firewall-cmd --list-ports
 <img src="images/Planem21.PNG" width="600">
 <br>
 
-## - Use Planemo to test the tool:
+## - (Optional). Use Planemo to test the tool:
 
 > 16. Test the tool using *planemo s*.
 ```
@@ -241,6 +241,46 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 <img src="images/Planem26.PNG" width="800">
 <br>
 <img src="images/Planem27.PNG" width="800">
+<br>
+
+## - Make Galaxy aware of the new tool(s) and build the tool menus:
+<br>
+
+> Assuming that the tool is ready, now we can "make Galaxy aware of the new files". Galaxy recognizes installed tools through the `tool_conf.xml` configuration file located in the `config/` directory. Therefore, new tools can be added to existing or new sections in the following way:
+
+> 20. Open the configuration file using **vim***:
+```
+cd ~/Galaxy/galaxy/config
+vim tool_conf.xml
+```
+<br>
+<img src="images/aw01.PNG" width="600">
+<br>
+
+> 21. For the tool in *"galaxy/tools/test1/test1.R"*, inside the **vim** editor, press `i` to insert the following text:
+```
+ <section name="test1" id="t1">
+    <tool file="test1/test1.xml" />
+ </section>
+```
+> Add it after the last `</section>` of the file. To save and leave **vim**, press `Esc` and then `:x`.
+<br>
+<img src="images/aw02.PNG" width="600">
+<br>
+<img src="images/aw03.PNG" width="600">
+<br>
+
+## - Start Galaxy:
+
+> 22. To test the newly integrated tool, start Galaxy by typing `sh run.sh` from the Galaxy root directory and point your browser to `http://localhost:8080`.
+```
+cd ~/Galaxy/galaxy
+sh run.sh
+```
+<br>
+<img src="images/aw04.PNG" width="600">
+<br>
+<img src="images/aw05.PNG" width="600">
 <br>
 
 *Last updated: Antonio Mora, April 19th, 2021*
