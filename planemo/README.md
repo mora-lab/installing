@@ -225,12 +225,20 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 <img src="images/Planem22.PNG" width="800">
 <br>
 
+> 18. Find the tool called *'Test how to pass parameters for R'*. You can see that the labels and boxes correspond to the XML file.
+
+<br>
+<img src="images/Planem23.PNG" width="800">
+<br>
+<img src="images/Planem24.png" width="800">
+<br>
+
 ## - Make Galaxy aware of the new tool(s) and build the tool menus:
 <br>
 
 > Assuming that the tool is ready, now we can "make Galaxy aware of the new files". Galaxy recognizes installed tools through the `tool_conf.xml` configuration file located in the `config/` directory. Therefore, new tools can be added to existing or new sections in the following way:
 
-> 18. Open the configuration file using **vim**:
+> 19. Open the configuration file using **vim**:
 ```
 cd ~/Galaxy/galaxy/config
 vim tool_conf.xml
@@ -239,7 +247,7 @@ vim tool_conf.xml
 <img src="images/aw01.PNG" width="600">
 <br>
 
-> 19. For the tool in *"galaxy/tools/test1/test1.R"*, inside the **vim** editor, press `i` to insert the following text:
+> 20. For the tool in *"galaxy/tools/test1/test1.R"*, inside the **vim** editor, press `i` to insert the following text:
 ```
  <section name="test1" id="t1">
     <tool file="test1/test1.xml" />
@@ -254,7 +262,7 @@ vim tool_conf.xml
 
 ## - Start Galaxy:
 
-> 20. To test the newly integrated tool, start Galaxy by typing `sh run.sh` from the Galaxy root directory and point your browser to `http://localhost:8080`.
+> 21. To test the newly integrated tool, start Galaxy by typing `sh run.sh` from the Galaxy root directory and point your browser to `http://localhost:8080`.
 ```
 cd ~/Galaxy/galaxy
 sh run.sh
@@ -265,15 +273,9 @@ sh run.sh
 <img src="images/aw05.PNG" width="900">
 <br>
 
+> Find the tool called *'Test how to pass parameters for R'* in the new *'test1'* menu section.
+
 ## - Run the new tool:
-
-> 21. Find the tool called *'Test how to pass parameters for R'*. You can see that the labels and boxes correspond to the XML file.
-
-<br>
-<img src="images/Planem23.PNG" width="800">
-<br>
-<img src="images/Planem24.png" width="800">
-<br>
 
 > 22. Add values to both parameters and run the tool. You will see a new history element appears with our results.
 
@@ -285,4 +287,4 @@ sh run.sh
 <img src="images/Planem27.PNG" width="800">
 <br>
 
-*Last updated: Antonio Mora, April 19th, 2021*
+*Last updated: Antonio Mora, May 14th, 2021*
