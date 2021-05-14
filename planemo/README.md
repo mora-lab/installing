@@ -1,9 +1,9 @@
 <img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
-# Installing Planemo
+# Creating Galaxy tools using Planemo
 <br>
 
-> **Planemo** is a command-line utility "to assist in developing Galaxy and Common Workflow Language artifacts - including tools, workflows, and training materials". More information about **Planemo** can be found [here](https://planemo.readthedocs.io/en/latest/readme.html).
+> **Planemo** is a command-line utility "to assist in developing **Galaxy** and Common Workflow Language artifacts - including tools, workflows, and training materials". More information about **Planemo** can be found [here](https://planemo.readthedocs.io/en/latest/readme.html).
 
 > The following are the instructions to install **Planemo** (version 0.74.3) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine. A similar procedure can be followed using other OS.
 
@@ -111,7 +111,7 @@ Rscript test1.R 24 53 test1_result.txt
 <img src="images/Planem11.PNG" width="800">
 <br>
 
-## - Using Planemo to create the tool definition file:
+## - Use Planemo to create the tool definition file:
 
 > The Galaxy tool definition file is an XML file wrapping a tool written in another language. The XML file describes the user interface for the tool, how to invoke it, what options to pass, and what files it will produce as output. It does contain multiple tags and attributes. More information about the XML tool definition file can be found [here](https://docs.galaxyproject.org/en/latest/dev/schema.html).
 
@@ -233,7 +233,7 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 <img src="images/Planem24.png" width="800">
 <br>
 
-## - Make Galaxy aware of the new tool(s) and build the tool menus:
+## - Make Galaxy aware of the new tool and build the tool menus:
 <br>
 
 > Assuming that the tool is ready, now we can "make Galaxy aware of the new files". Galaxy recognizes installed tools through the `tool_conf.xml` configuration file located in the `config/` directory. Therefore, new tools can be added to existing or new sections in the following way:
@@ -253,7 +253,7 @@ vim tool_conf.xml
     <tool file="test1/test1.xml" />
  </section>
 ```
-> Add it after the last `</section>` of the file. To save and leave **vim**, press `Esc` and then `:x`.
+> Add the text after the last `</section>` of the file. To save and leave **vim**, press `Esc` and then `:x`.
 <br>
 <img src="images/aw02.PNG" width="600">
 <br>
