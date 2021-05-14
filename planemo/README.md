@@ -46,7 +46,7 @@ conda install planemo
 <img src="images/Planem04.PNG" width="600">
 <br>
 
-## - Building an R test tool:
+## - Build an R test tool:
 
 > 5. Open **Rstudio**.
 
