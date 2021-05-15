@@ -3,20 +3,12 @@
 #author: xiaowei
 # time: Mar.31 2021
 ###############################################################################
-
-
-#####################
-#Input argument for this function
-#####################
 # title
   # Reactome Pathway enrich Analysis of a gene set
-
 # description
   #Input a vector of all different expression gene and Output the enriched Significant Reactome Pathways
-
 # basic input: 
   # genelist, g, 1, character, an csv file contained all different expression genes with entrez gene id, and has one column as DEgenes
-
 # Optional:
   # pvalueCutoff  , p , 1, numeric  , Cutoff value of p-value,
   # organism      , o , 1, character, one of 'human', 'rat', 'mouse', 'celegans', 'yeast', 'zebrafish' and 'fly',
@@ -24,15 +16,11 @@
   # minGSSize     , i , 1, integer  , minimal size of genes annotated by Ontology term for testing,
   # maxGSSize     , a , 1, integer  , maximal size of each geneSet for analyzing,
   # convertId     , c , 0, logical  , whether papping gene ID to gene Name,
-
-
 # OUT:
   # sigP, s, 1, character, output csv file name
-
 ##############################################################################
-#Input argument
+#Input
 ###############################################################################
-#args <- commandArgs(trailingOnly = TRUE)
 
 spec <- matrix(c("genelist", "g", 1, "character", "an csv file contained all different expression genes with entrez gene id",
                  "pvalueCutoff", "p", 1, "numeric", "Cutoff value of p-value",
@@ -44,10 +32,8 @@ spec <- matrix(c("genelist", "g", 1, "character", "an csv file contained all dif
                  "sigP", "s", 1, "character", "output csv file name"),
                byrow = TRUE, ncol = 5)
 
-
 if (!requireNamespace("getopt", quietly = TRUE))
   install.packages("getopt")
-
 
 opt <- getopt::getopt(spec)
 
@@ -83,7 +69,6 @@ if(is.null(opt$maxGSSize)){
   maxGSSize <- opt$maxGSSize  
 }
 
-
 if(is.null(opt$convertId)){
   convertId <- FALSE
 }else{
@@ -107,8 +92,6 @@ suppressPackageStartupMessages(
     BiocManager::install("ReactomePA")
   })
 
-#suppressPackageStartupMessages(library(ReactomePA))
-
 #Pathway Enrichment Analysis of a gene set
 result_sigP <- ReactomePA::enrichPathway(gene=de, #entrez id 的基因 向量
                              pvalueCutoff= pvalueCutoff,  #p值阈值
@@ -121,12 +104,7 @@ result_sigP <- ReactomePA::enrichPathway(gene=de, #entrez id 的基因 向量
 
 result_sigP <- as.data.frame(result_sigP)
 
-
-
 ###############################################################################
 #输出
 ###############################################################################
 write.csv(result_sigP, file = opt$sigP, row.names = FALSE)
-
-
-
