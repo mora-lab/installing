@@ -240,7 +240,7 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 
 > 19. Open the tool configuration file using either (i) a terminal and **vim** editor or (ii) CentOS's **File Manager** and **Text Editor**:
 <br>
-> (i)
+> (i) Using **vim**:
 ```
 cd ~/Galaxy/galaxy/config
 vim tool_conf.xml
@@ -248,9 +248,10 @@ vim tool_conf.xml
 <br>
 <img src="images/aw01.PNG" width="600">
 <br>
-> (ii)
+
+> (ii) Using **Text Editor**:
 <br>
-<img src="images/to16.PNG" width="600">
+<img src="images/to16.png" width="600">
 <br>
 
 > 20. For the tool in *"galaxy/tools/test1/test1.R"*, insert the following text:
@@ -352,7 +353,7 @@ sh run.sh
 > 28. If you want to change the order of the tools in the menu, close Galaxy and modify the `integrated_tool_panel.xml` file in the `config` folder. Here, we made changes by using CentOS **Text Editor**.
 > Just re-arrange the different sections in the order you wish.
 <br>
-<img src="images/to17.PNG" width="600">
+<img src="images/to17.png" width="600">
 <br>
 <img src="images/to09.PNG" width="600">
 <br>
@@ -365,19 +366,20 @@ sh run.sh
 <br>
 <img src="images/to06.PNG" width="600">
 <br>
-<img src="images/to11.PNG" width="600">
+<img src="images/to11.PNG" width="800">
 <br>
 
 > 30. That's it. Restart Galaxy and test your tools.
 <br>
 <img src="images/to06.PNG" width="600">
 <br>
-<img src="images/to12.PNG" width="600">
+<img src="images/to12.PNG" width="800">
 <br>
 
 ## - Extra:
 <br>
 > If you wish to modify Galaxy's welcome page, go to the `galaxy/static` folder and make the changes to the `welcome.html` file. If you add figures to the `welcome.html` file, place them in the `static/images` folder.
+
 <br>
 <img src="images/to13.PNG" width="600">
 <br>
