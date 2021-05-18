@@ -1,16 +1,16 @@
 <img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
-# Creating Galaxy tools using Planemo
+# Creating Galaxy tools
 <br>
 
-> **Planemo** is a command-line utility "to assist in developing **Galaxy** and Common Workflow Language artifacts - including tools, workflows, and training materials". More information about **Planemo** can be found [here](https://planemo.readthedocs.io/en/latest/readme.html).
+> The following are the instructions to create Galaxy tools using **Planemo** (version 0.74.3) and other tools on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine. A similar procedure can be followed using other OS.
 
-> The following are the instructions to install **Planemo** (version 0.74.3) on Linux. The tutorial uses a **Linux CentOS-Stream-8** installed in a **VirtualBox 6.1.18** virtual machine. A similar procedure can be followed using other OS.
+> **Planemo** is a command-line utility "to assist in developing **Galaxy** and Common Workflow Language artifacts - including tools, workflows, and training materials". More information about **Planemo** can be found [here](https://planemo.readthedocs.io/en/latest/readme.html).
 
 ## - Before starting
 <br>
 
-> 1. In order to install Planemo, you must previously have installed **python**, **Galaxy** and **R/Rstudio** in a Linux environment.
+> 1. In order to install **Planemo**, you must previously have installed **python**, **Galaxy** and **R/Rstudio** in a Linux environment.
 If you don't have them installed yet, follow our tutorials:
 
 [(i) Creating a CentOS-Stream-8 VirtualBox VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md)<br>
