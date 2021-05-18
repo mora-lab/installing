@@ -239,6 +239,7 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 > Assuming that the tool is ready, now we can "make Galaxy aware of the new files". Galaxy recognizes installed tools through the `tool_conf.xml` configuration file located in the `config/` directory. Therefore, new tools can be added to existing or new sections in the following way:
 
 > 19. Open the tool configuration file using either (i) a terminal and **vim** editor or (ii) CentOS's **File Manager** and **Text Editor**:
+<br>
 > (i)
 ```
 cd ~/Galaxy/galaxy/config
@@ -296,9 +297,9 @@ sh run.sh
 
 ## - Installing entire packages:
 <br>
-> If we don't want to wrap a simple one-file script but an entire existing package, we can create a script that calls the package (and its dependencies), and defines the inputs, the functions of the package to be run, and the outputs. That script must be associated to an xml file as we have done before. In this tutorial, we will show how to wrap existing R packages, by wrapping the ["ReactomePA"](https://doi.org/doi:10.18129/B9.bioc.ReactomePA) and ["GSVA"](https://doi.org/doi:10.18129/B9.bioc.GSVA) R packages into Galaxy.
+> If we don't want to wrap a simple one-file script but an entire existing package, we can create a script that calls the package (and its dependencies), and defines the inputs, the functions of the package to be run, and the outputs. That script must be associated to an xml file as we have done before. In this tutorial, we will show how to wrap existing R packages, by wrapping the [ReactomePA](https://doi.org/doi:10.18129/B9.bioc.ReactomePA) and [GSVA](https://doi.org/doi:10.18129/B9.bioc.GSVA) R packages into Galaxy.
 
-> 23. Create a folder called "GalaxyGSA" for this project.
+> 23. Create a folder called **"GalaxyGSA"** for this project.
 ```
 cd ~/Galaxy/galaxy/tools
 mkdir GalaxyGSA
