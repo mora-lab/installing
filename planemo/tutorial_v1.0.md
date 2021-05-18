@@ -240,6 +240,7 @@ planemo s --galaxy_root /home/ant/Galaxy/galaxy \
 
 > 19. Open the tool configuration file using either (i) a terminal and **vim** editor or (ii) CentOS's **File Manager** and **Text Editor**:
 <br>
+
 > (i) Using **vim**:
 ```
 cd ~/Galaxy/galaxy/config
@@ -251,7 +252,7 @@ vim tool_conf.xml
 
 > (ii) Using **Text Editor**:
 <br>
-<img src="images/to16.png" width="600">
+<img src="images/to16.png" width="800">
 <br>
 
 > 20. For the tool in *"galaxy/tools/test1/test1.R"*, insert the following text:
@@ -297,7 +298,6 @@ sh run.sh
 <br>
 
 ## - Installing entire packages:
-<br>
 > If we don't want to wrap a simple one-file script but an entire existing package, we can create a script that calls the package (and its dependencies), and defines the inputs, the functions of the package to be run, and the outputs. That script must be associated to an xml file as we have done before. In this tutorial, we will show how to wrap existing R packages, by wrapping the [ReactomePA](https://doi.org/doi:10.18129/B9.bioc.ReactomePA) and [GSVA](https://doi.org/doi:10.18129/B9.bioc.GSVA) R packages into Galaxy.
 
 > 23. Create a folder called **"GalaxyGSA"** for this project.
