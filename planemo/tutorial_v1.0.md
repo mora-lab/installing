@@ -322,7 +322,7 @@ rstudio
 <img src="images/to03.PNG" width="600">
 <br>
 
-> Note that an important part of these files is the list of requirements. For example, **ReactomePA.xml** lists the following R packages: `r-getopt`, `bioconductor-ReactomePA`, and `bioconductor-org.Hs.eg.db`, while **GSVA.xml** lists `bioconductor-GSVA`, `r-pheatmap`, and `r-getopt`.
+> Note that an important part of those files is the list of requirements. Here we have carefully detected and specified the required packages. **ReactomePA.xml** lists the following R packages: `r-getopt`, `bioconductor-ReactomePA`, and `bioconductor-org.Hs.eg.db`, while **GSVA.xml** lists `bioconductor-GSVA`, `r-pheatmap`, and `r-getopt`.
 
 > 26. Now update the `galaxy/config/tool_conf.xml` file by adding:
 ```
@@ -334,9 +334,7 @@ rstudio
  </section>
 ```
 <br>
-<img src="images/to04.PNG" width="600">
-<br>
-<img src="images/to05.PNG" width="600">
+<img src="images/to06.PNG" width="600">
 <br>
 
 > 27. Run Galaxy. You can see the new section and tools in the left-side menu.
@@ -345,39 +343,36 @@ cd ~/Galaxy/galaxy
 sh run.sh
 ```
 <br>
-<img src="images/to06.PNG" width="600">
-<br>
 <img src="images/to07.PNG" width="600">
 <br>
 
 > 28. If you want to change the order of the tools in the menu, close Galaxy and modify the `integrated_tool_panel.xml` file in the `config` folder. Here, we made changes by using CentOS **Text Editor**.
 > Just re-arrange the different sections in the order you wish.
 <br>
-<img src="images/to17.png" width="600">
+<img src="images/to17.png" width="800">
 <br>
 <img src="images/to09.PNG" width="600">
 <br>
 
-> 29. Install packages: Run Galaxy. In the Galaxy menu, go to `Admin` -> `Manage Dependencies(legacy)` and find your packages in the list. Proceed to install all your **R** packages and dependencies by selecting all of them and then pressing "Install checked dependencies using Conda".
+> 29. Install packages: Run Galaxy. In the Galaxy menu, go to `Admin` -> `Manage Dependencies(legacy)` and find your packages in the list. Proceed to install all your **R** packages and dependencies by selecting all of them and then pressing **"Install checked dependencies using Conda"**.
 ```
 cd ~/Galaxy/galaxy/
 sh run.sh
 ```
 <br>
-<img src="images/to06.PNG" width="600">
-<br>
-<img src="images/to11.PNG" width="800">
+<img src="images/to11.PNG" width="960">
 <br>
 
 > 30. That's it. Restart Galaxy and test your tools.
+```
+cd ~/Galaxy/galaxy/
+sh run.sh
+```
 <br>
-<img src="images/to06.PNG" width="600">
-<br>
-<img src="images/to12.PNG" width="800">
+<img src="images/to12.PNG" width="960">
 <br>
 
 ## - Extra:
-<br>
 > If you wish to modify Galaxy's welcome page, go to the `galaxy/static` folder and make the changes to the `welcome.html` file. If you add figures to the `welcome.html` file, place them in the `static/images` folder.
 
 <br>
