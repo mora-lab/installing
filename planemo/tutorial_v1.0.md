@@ -86,7 +86,7 @@ write.table(x, file = para3)
 > 7. Save it as `galaxy/tools/test1/test1.R`.
 
 <br>
-<img src="images/Planem08.PNG" width="800">
+<img src="images/Planem08.png" width="800">
 <br>
 
 > 8. Open a terminal in **Rstudio** and run the **R** script.
@@ -96,13 +96,13 @@ Rscript test1.R 24 53 test1_result.txt
 ```
 
 <br>
-<img src="images/Planem09.PNG" width="800">
+<img src="images/Planem09.png" width="800">
 <br>
 
 > 9. Verify that you obtained the result file.
 
 <br>
-<img src="images/Planem10.PNG" width="800">
+<img src="images/Planem10.png" width="800">
 <br>
 
 > 10. You can also open the result file using **Rstudio**.
