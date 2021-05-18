@@ -268,7 +268,7 @@ vim tool_conf.xml
 <img src="images/aw03.PNG" width="600">
 <br>
 
-> Using Text Editor should be straightforward.
+> Using **Text Editor** should be straightforward.
 
 ## - Start Galaxy:
 
