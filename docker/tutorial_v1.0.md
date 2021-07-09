@@ -111,7 +111,7 @@ sudo docker rmi ubuntu
 ```
 
 ## - Run Galaxy Docker images:
-<br>
+
 > 15. Run the following Docker images (if they don't exist, they will be downloaded):
 ```
 ### Tutorial (27.9 MB):
