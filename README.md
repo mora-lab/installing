@@ -10,7 +10,7 @@
 
 **1.2. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
-**1.3. Galaxy:** A platform for integrating tools in a simple and reproducible computational environment: [Here](https://github.com/mora-lab/installing/tree/main/galaxy)
+**1.3. Galaxy:** A platform for integrating tools in a simple and reproducible computational environment: [Here for setting up Galaxy from scratch](https://github.com/mora-lab/installing/tree/main/galaxy) or [here for Galaxy Docker images](https://github.com/mora-lab/installing/tree/main/docker)
 
 **1.4. Importing and exporting VMs:** Sharing virtual machines (especially those with entire bioinformatics platforms such as our Galaxy-GSA): [Here](https://github.com/mora-lab/installing/tree/main/virtualbox_impo_expo)
 
