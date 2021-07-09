@@ -1,4 +1,4 @@
-<img src="../../../../mora-lab.github.io/picture/MORALAB_Banner.png">
+<img src="https://mora-lab.github.io/picture/MORALAB_Banner.png">
 
 # Installing Docker and Galaxy Docker Images
 <br>
