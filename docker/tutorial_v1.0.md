@@ -39,7 +39,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 
 > This is a summary of the process described at: https://docs.docker.com/engine/install/centos/
 
-> 7. Uninstall old versions:
+> 5. Uninstall old versions:
 ```
 sudo dnf remove docker \
                   docker-client \
@@ -51,12 +51,12 @@ sudo dnf remove docker \
                   docker-engine
 ```
 
-> 8. Uninstall conflicts:
+> 6. Uninstall conflicts:
 ```
 sudo dnf -y remove podman runc
 ```
 
-> 9. Set up repository:
+> 7. Set up repository:
 ```
 sudo dnf install -y yum-utils
 
@@ -65,7 +65,7 @@ sudo yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
-> 10. Install latest **Docker** (currently, 20.10.6) and Containerd:
+> 8. Install latest **Docker** (currently, 20.10.6) and Containerd:
 ```
 sudo dnf install docker-ce docker-ce-cli containerd.io
 #If prompted to accept the GPG key, verify that the fingerprint matches 060A 61C5 1B55 8A7F 742B 77AA C52F EB6B 621E 9F35, and if so, accept it.
@@ -77,22 +77,22 @@ docker version	# (Here, 20.10.6)
 
 ## - Start Docker:
 
-> 11. Start Docker:
+> 9. Start Docker:
 ```
 sudo systemctl start docker
 ```
 
-> 12. Run the Hello-world image (if it doesn't exist, it will be downloaded):
+> 10. Run the Hello-world image (if it doesn't exist, it will be downloaded):
 ```
 sudo docker run hello-world
 ```
 
-> 13. (Optional). Uninstalling:
+> 11. (Optional). Uninstalling:
 ```
 sudo yum remove docker-ce docker-ce-cli containerd.io
 ```
 
-> 14. (Optional). Docker image and container commands:
+> 12. (Optional). Try Docker image and container commands:
 ```
 ### With hello-world:
 sudo docker images  # Look all images
@@ -112,7 +112,7 @@ sudo docker rmi ubuntu
 
 ## - Run Galaxy Docker images:
 
-> 15. Run the following Docker images (if they don't exist, they will be downloaded):
+> 13. Run the following Docker images (if they don't exist, they will be downloaded):
 ```
 ### Tutorial (27.9 MB):
 sudo docker run -p 80:80 docker/getting-started
@@ -158,3 +158,25 @@ sudo docker stop my_container
 
 df -h
 ```
+
+## - Usage:
+
+> 14. Use the **Docker** images in a few simple steps:
+```
+# Open Linux (here, VirtualBox and CentOS-Stream-8-Docker VM)
+# Open a terminal
+sudo systemctl start docker
+sudo docker images
+sudo docker ps -a
+sudo docker run quay.io/galaxy/epigenetics-training	  # if it is already installed, it will just be opened
+```
+
+## - Final Notes:
+
+> 15. "Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer. Fortunately, this is as easy as:
+```
+docker run -d -p 8080:80 \
+    -v /home/user/galaxy_storage/:/export/ \
+    bgruening/galaxy-stable
+````
+
