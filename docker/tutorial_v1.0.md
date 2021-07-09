@@ -112,7 +112,7 @@ sudo docker rmi ubuntu
 
 ## - Run Galaxy Docker images:
 
-> 13. Run the following Docker images (if they don't exist, they will be downloaded):
+> 13. If you are interested in **Galaxy**, you can proceed to install it the hard way (see [here](https://github.com/mora-lab/installing/tree/main/galaxy)) or, alternatively, you can run the following **Docker** images (if they don't exist, they will be downloaded):
 ```
 ### Tutorial (27.9 MB):
 sudo docker run -p 80:80 docker/getting-started
