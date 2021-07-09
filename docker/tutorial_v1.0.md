@@ -1,4 +1,4 @@
-<img src="../mora-lab.github.io/picture/MORALAB_Banner.png">
+<img src="../../../mora-lab.github.io/picture/MORALAB_Banner.png">
 
 # Installing Docker and Galaxy Docker Images
 <br>
@@ -97,4 +97,71 @@ sudo docker run hello-world
 > 13. (Optional). Uninstalling:
 ```
 sudo yum remove docker-ce docker-ce-cli containerd.io
+```
+
+> 14. (Optional). Docker image and container commands:
+```
+- With hello-world:
+Look all images: sudo docker images
+Look all containers:  sudo docker ps -a
+Remove the only container: sudo docker rm my_container(priceless_volhard)
+Now remove the only image: sudo docker rmi hello-world
+
+- With ubuntu:
+sudo docker run -it ubuntu bash
+ls
+exit
+sudo docker stop my_container(objective_mirzakhani)
+sudo docker start my_container(objective_mirzakhani)
+sudo docker rm my_container(objective_mirzakhani)
+sudo docker rmi ubuntu
+```
+
+## - Run Galaxy Docker images:
+<br>
+> 15. Run the following Docker images (if they don't exist, they will be downloaded):
+```
+- Tutorial (27.9 MB):
+sudo docker run -dp 80:80 docker/getting-started
+#Open browser (in CentOS) at localhost:80 [OK]
+sudo docker ps -a
+sudo docker stop infallible_black
+
+- Transcriptomics (33.7 GB):
+sudo docker run -p 8080:80 quay.io/galaxy/transcriptomics-training
+#Open browser at localhost:8080 [OK]
+sudo docker ps -a
+sudo docker stop unruffled_hoover
+
+- Epigenetics (14.4 GB):
+sudo docker run -dp 8080:80 quay.io/galaxy/epigenetics-training
+#Open browser at localhost:8080 [Not ok]
+sudo docker ps -a
+sudo docker stop compassionate_engelbart
+
+- Metagenomics (15.6 GB):
+sudo docker run -dp 8080:80 quay.io/galaxy/metagenomics-training
+#Open browser at localhost:8080 [OK]
+sudo docker ps -a
+sudo docker stop compassionate_engelbart
+
+- Proteomics (19.9 GB):
+sudo docker run -dp 8080:80 quay.io/galaxy/proteomics-training
+#Open browser at localhost:8080 [Not ok]
+sudo docker ps -a
+sudo docker stop compassionate_engelbart
+
+- Metabolomics (10.2 GB):
+sudo docker run -dp 8080:80 quay.io/galaxy/metabolomics-training
+#Open browser at localhost:8080 [Not ok]
+sudo docker ps -a
+sudo docker stop compassionate_engelbart
+
+- Statistics (10.6 GB):
+sudo docker run -dp 8080:80 quay.io/galaxy/statistics-training
+#Open browser at localhost:8080 [OK]
+sudo docker ps -a
+sudo docker stop compassionate_engelbart
+
+df -h
 ```
