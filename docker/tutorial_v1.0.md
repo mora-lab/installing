@@ -1,4 +1,4 @@
-<img src="../../mora-lab.github.io/picture/MORALAB_Banner.png">
+<img src="../mora-lab.github.io/picture/MORALAB_Banner.png">
 
 # Installing Docker and Galaxy Docker Images
 <br>
@@ -41,3 +41,60 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 <img src="images/Anaconda06.PNG" width="600">
 <br>
 
+## - Installing Docker
+<br>
+
+> Description: https://docs.docker.com/engine/install/centos/
+
+> 7. Uninstall old versions:
+```
+sudo dnf remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine
+```
+
+> 8. Uninstall conflicts:
+```
+sudo dnf -y remove podman runc
+```
+
+> 9. Set up repository:
+```
+sudo dnf install -y yum-utils
+
+sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+```
+
+> 10. Install latest **Docker** (currently, 20.10.6) and Containerd:
+```
+sudo dnf install docker-ce docker-ce-cli containerd.io
+#If prompted to accept the GPG key, verify that the fingerprint matches 060A 61C5 1B55 8A7F 742B 77AA C52F EB6B 621E 9F35, and if so, accept it.
+
+docker version	# (Here, 20.10.6)
+```
+
+> "Docker is installed but not started. The docker group is created, but no users are added to the group."
+
+## - Start Docker:
+
+> 11. Start Docker:
+```
+sudo systemctl start docker
+```
+
+> 12. Run the Hello world image (if it doesn't exist, it will be downloaded):
+```
+sudo docker run hello-world
+```
+
+> 13. (Optional). Uninstalling:
+```
+sudo yum remove docker-ce docker-ce-cli containerd.io
+```
