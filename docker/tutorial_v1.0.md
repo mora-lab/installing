@@ -1,4 +1,4 @@
-<img src="../../../mora-lab.github.io/picture/MORALAB_Banner.png">
+<img src="../../../../mora-lab.github.io/picture/MORALAB_Banner.png">
 
 # Installing Docker and Galaxy Docker Images
 <br>
@@ -173,10 +173,11 @@ sudo docker run quay.io/galaxy/epigenetics-training	  # if it is already install
 
 ## - Final Notes:
 
-> 15. "Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer. Fortunately, this is as easy as:
+> 15. From the tutorial: "Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer. Fortunately, this is as easy as:
 ```
 docker run -d -p 8080:80 \
     -v /home/user/galaxy_storage/:/export/ \
     bgruening/galaxy-stable
 ````
 
+*Last updated: Antonio Mora, July 9th, 2021*
