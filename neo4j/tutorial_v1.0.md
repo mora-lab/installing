@@ -518,8 +518,8 @@ dbms.read_only=true
 
 
 ## First steps
-Open Linux
-Verify Internet connection
+* Open Linux
+* Verify Internet connection
 
 ## Install java 11:
 ```
@@ -550,6 +550,7 @@ sudo neo4j start
 
 Open a web browser at localhost:7474
 
+## Connecting from outside:
 When connecting from the outside, set the following:
 ```
 sudo vi /etc/neo4j/neo4j.conf
@@ -561,4 +562,3 @@ dbms.connector.https.address=<IP address of the server>:7474
 That will open the 7678 and 7474 ports.
 
 *last reviewed: Jul.16th, 2021*
-
