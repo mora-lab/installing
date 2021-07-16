@@ -1,4 +1,4 @@
-<img src="neo4j-eng.assets/image-20210716142011100.png" alt="image-20210716142011100" style="zoom:67%;" />
+<img src="images/image-20210716142011100.png" alt="image-20210716142011100" style="zoom:67%;" />
 
 # Install Neo4j on Windows
 
@@ -7,49 +7,49 @@
 ### (1) Download
 Download Java [jdk-11.0.11_windows-x64_bin.exe](jdk-11.0.11_windows-x64_bin.exe) from https://www.oracle.com/java/technologies/javase-jdk11-downloads.html. When you download the Java file, you need to log in the Oracle.
 
-<img src="neo4j-eng.assets/image-20210712155303913.png" alt="image-20210712155303913" style="zoom:50%;" />
+<img src="images/image-20210712155303913.png" alt="image-20210712155303913" style="zoom:50%;" />
 
 ### (2) Install
 
 **click [jdk-11.0.11_windows-x64_bin.exe](jdk-11.0.11_windows-x64_bin.exe) to install following its guide.**
 
-<img src="neo4j-eng.assets/image-20210712160717716.png" alt="image-20210712160717716" style="zoom:67%;" />
+<img src="images/image-20210712160717716.png" alt="image-20210712160717716" style="zoom:67%;" />
 
 **Note: You must remember where the directory to install Java, because we will use the path to set the environment variable for JAVA.**
 
-<img src="neo4j-eng.assets/image-20210712160834564.png" alt="image-20210712160834564" style="zoom:67%;" />
+<img src="images/image-20210712160834564.png" alt="image-20210712160834564" style="zoom:67%;" />
 
-<img src="neo4j-eng.assets/image-20210712165645433.png" alt="image-20210712165645433" style="zoom:67%;" />
+<img src="images/image-20210712165645433.png" alt="image-20210712165645433" style="zoom:67%;" />
 
 ### (3) Set the environment variable for Java 11
 
 **Press `Win + R` to quickly launch apps, and input `sysdm.cpl` to open `System Properties`.**
 
-<img src="neo4j-eng.assets/image-20210712161608872.png" alt="image-20210712161608872" style="zoom:80%;" />
+<img src="images/image-20210712161608872.png" alt="image-20210712161608872" style="zoom:80%;" />
 
 **Choose Advanced tab, and click the button `Environment Variables`.**
 
-<img src="neo4j-eng.assets/image-20210712161741616.png" alt="image-20210712161741616" style="zoom:80%;" />
+<img src="images/image-20210712161741616.png" alt="image-20210712161741616" style="zoom:80%;" />
 
 **Click `New...` Button to set a system variables for JAVA 11.**
 
-<img src="neo4j-eng.assets/image-20210712165940834.png" alt="image-20210712165940834" style="zoom:67%;" />
+<img src="images/image-20210712165940834.png" alt="image-20210712165940834" style="zoom:67%;" />
 
 **Set `Variable name` as `JAVA_HOME11` and `Variable value` as the path of installing JAVA (the path of JAVA in my computer is `C:\Program Files\Java\jdk-11.0.11`).**
 
-<img src="neo4j-eng.assets/image-20210712170101843.png" alt="image-20210712170101843" style="zoom:80%;" />
+<img src="images/image-20210712170101843.png" alt="image-20210712170101843" style="zoom:80%;" />
 
 **Now, you should click the `Path` in the list of  `System variable` to add the JAVA variable. Then, click the button `Edit...`.**
 
-<img src="neo4j-eng.assets/image-20210712170146509.png" alt="image-20210712170146509" style="zoom:67%;" />
+<img src="images/image-20210712170146509.png" alt="image-20210712170146509" style="zoom:67%;" />
 
 Click `New` Button to write `%JAVA_HOME11%\bin`.
 
-<img src="neo4j-eng.assets/image-20210712170223572.png" alt="image-20210712170223572" style="zoom:80%;" />
+<img src="images/image-20210712170223572.png" alt="image-20210712170223572" style="zoom:80%;" />
 
-<img src="neo4j-eng.assets/image-20210712170420772.png" alt="image-20210712170420772" style="zoom:80%;" />
+<img src="images/image-20210712170420772.png" alt="image-20210712170420772" style="zoom:80%;" />
 
-<img src="neo4j-eng.assets/image-20210712170536796.png" alt="image-20210712170536796" style="zoom:80%;" />
+<img src="images/image-20210712170536796.png" alt="image-20210712170536796" style="zoom:80%;" />
 
 ### (4) Test the JAVA
 
@@ -57,9 +57,9 @@ Click `New` Button to write `%JAVA_HOME11%\bin`.
 
 Press `Win + R` and input `cmd` to open CMD.
 
-![image-20210712171613788](neo4j-eng.assets/image-20210712171613788.png)
+![image-20210712171613788](images/image-20210712171613788.png)
 
-<img src="neo4j-eng.assets/image-20210714164012119.png" alt="image-20210714164012119" style="zoom:80%;" />
+<img src="images/image-20210714164012119.png" alt="image-20210714164012119" style="zoom:80%;" />
 
 ## 2. Install neo4j
 
@@ -69,11 +69,11 @@ Press `Win + R` and input `cmd` to open CMD.
 
 **(1) Download neo4j 3.5.28 from https://neo4j.com/download-center/#community **
 
-<img src="neo4j-eng.assets/image-20210714165119253.png" alt="image-20210714165119253" style="zoom:67%;" />
+<img src="images/image-20210714165119253.png" alt="image-20210714165119253" style="zoom:67%;" />
 
 **(2) Uncompress the downloaded file** [neo4j-community-3.5.28-windows.zip](neo4j-community-3.5.28-windows.zip) to `D:`.
 
-<img src="neo4j-eng.assets/image-20210714170404902.png" alt="image-20210714170404902" style="zoom:67%;" />
+<img src="images/image-20210714170404902.png" alt="image-20210714170404902" style="zoom:67%;" />
 
 Here in the installation directory, you'll find:
 
@@ -100,39 +100,39 @@ cd neo4j-community-3.5.28\bin
 neo4j.bat console
 ```
 
-<img src="neo4j-eng.assets/image-20210714170849613.png" alt="image-20210714170849613" style="zoom:67%;" />
+<img src="images/image-20210714170849613.png" alt="image-20210714170849613" style="zoom:67%;" />
 
 **If you want to stop neo4j running, just press `Ctrl + C`.**
 
 **(4) In a browser, open http://localhost:7474/**
 
-<img src="neo4j-eng.assets/image-20210714171419767.png" alt="image-20210714171419767" style="zoom:67%;" />
+<img src="images/image-20210714171419767.png" alt="image-20210714171419767" style="zoom:67%;" />
 
 **(5) Connect using the username 'neo4j' with default password 'neo4j'. You'll then be prompted to change the password.**
 
-<img src="neo4j-eng.assets/image-20210714171538944.png" alt="image-20210714171538944" style="zoom:67%;" />
+<img src="images/image-20210714171538944.png" alt="image-20210714171538944" style="zoom:67%;" />
 
 **(6) Introduce of neo4j browser**
 
-<img src="neo4j-eng.assets/image-20210714171916505.png" alt="image-20210714171916505" style="zoom:50%;" />
+<img src="images/image-20210714171916505.png" alt="image-20210714171916505" style="zoom:50%;" />
 
 Neo4j browser has a lot of practices for beginner.
 
-<img src="neo4j-eng.assets/image-20210714172001739.png" alt="image-20210714172001739" style="zoom:50%;" />
+<img src="images/image-20210714172001739.png" alt="image-20210714172001739" style="zoom:50%;" />
 
-<img src="neo4j-eng.assets/image-20210714172024658.png" alt="image-20210714172024658" style="zoom:50%;" />
+<img src="images/image-20210714172024658.png" alt="image-20210714172024658" style="zoom:50%;" />
 
-<img src="neo4j-eng.assets/image-20210714172056992.png" alt="image-20210714172056992" style="zoom:50%;" />
+<img src="images/image-20210714172056992.png" alt="image-20210714172056992" style="zoom:50%;" />
 
 ### 2.2 Install Neo4j 4.3.2
 
 **(1) Downlaod [neo4j 4.3.2](https://neo4j.com/artifact.php?name=neo4j-community-4.3.2-windows.zip) from https://neo4j.com/download-center/#community**
 
-<img src="neo4j-eng.assets/image-20210712171141256.png" alt="image-20210712171141256" style="zoom:67%;" />
+<img src="images/image-20210712171141256.png" alt="image-20210712171141256" style="zoom:67%;" />
 
 **(2) Uncompress the downloaded file** [neo4j-community-4.3.2-windows.zip](neo4j-community-4.3.2-windows.zip) to `D:`.
 
-<img src="neo4j-eng.assets/image-20210712171445597.png" alt="image-20210712171445597" style="zoom:67%;" />
+<img src="images/image-20210712171445597.png" alt="image-20210712171445597" style="zoom:67%;" />
 
 **(3) In the CMD, input the following command to run neo4j**
 
@@ -145,21 +145,21 @@ cd D:\neo4j-community-4.3.2\bin
 neo4j.bat console
 ```
 
-<img src="neo4j-eng.assets/image-20210712172242628.png" alt="image-20210712172242628" style="zoom:67%;" />
+<img src="images/image-20210712172242628.png" alt="image-20210712172242628" style="zoom:67%;" />
 
 **If you want to stop neo4j running, just press `Ctrl + C`.**
 
 **(4) In a browser, open http://localhost:7474/**
 
-<img src="neo4j-eng.assets/image-20210712172427079.png" alt="image-20210712172427079" style="zoom:67%;" />
+<img src="images/image-20210712172427079.png" alt="image-20210712172427079" style="zoom:67%;" />
 
 **(5) Connect using the username 'neo4j' with default password 'neo4j'. You'll then be prompted to change the password.**
 
-<img src="neo4j-eng.assets/image-20210712172520981.png" alt="image-20210712172520981" style="zoom:67%;" />
+<img src="images/image-20210712172520981.png" alt="image-20210712172520981" style="zoom:67%;" />
 
 **(6) Introduce of neo4j browser**
 
-<img src="neo4j-eng.assets/image-20210712172810394.png" alt="image-20210712172810394" style="zoom:50%;" />
+<img src="images/image-20210712172810394.png" alt="image-20210712172810394" style="zoom:50%;" />
 
 # Install neo4j with Docker
 
@@ -181,11 +181,11 @@ Docker installation can be see at https://docs.docker.com/get-docker/.
 - `docker pull` is for download image from Registry.
 - `docker run` is run the image as container
 
-<img src="neo4j-eng.assets/architecture.svg" alt="architecture" style="zoom:80%;" />
+<img src="images/architecture.svg" alt="architecture" style="zoom:80%;" />
 
 #### Docker Commands Diagram
 
-<img src="neo4j-eng.assets/cmd_logic.png" alt="cmd_logic" style="zoom:80%;" />
+<img src="images/cmd_logic.png" alt="cmd_logic" style="zoom:80%;" />
 
 ## 2 Install neo4j with Docker
 
@@ -198,7 +198,7 @@ If you only want download neo4j images,use:
 docker pull neo4j
 ```
 
-<img src="neo4j-eng.assets/image-20210716125322630.png" alt="image-20210716125322630" style="zoom:80%;" />
+<img src="images/image-20210716125322630.png" alt="image-20210716125322630" style="zoom:80%;" />
 
 **Download neo4j with special TAG**
 
@@ -207,7 +207,7 @@ docker pull neo4j
 docker pull neo4j:3.5.29-community
 ```
 
-<img src="neo4j-eng.assets/image-20210716125428733.png" alt="image-20210716125428733" style="zoom:80%;" />
+<img src="images/image-20210716125428733.png" alt="image-20210716125428733" style="zoom:80%;" />
 
 More neo4j can be see at https://hub.docker.com/_/neo4j?tab=tags&page=1&ordering=last_updated
 
@@ -218,7 +218,7 @@ More neo4j can be see at https://hub.docker.com/_/neo4j?tab=tags&page=1&ordering
 docker images
 ```
 
-<img src="neo4j-eng.assets/image-20210716140753556.png" alt="image-20210716140753556" style="zoom:80%;" />
+<img src="images/image-20210716140753556.png" alt="image-20210716140753556" style="zoom:80%;" />
 
 > - **REPOSITORY**: the image name
 > - **TAG**: the image version
@@ -242,13 +242,13 @@ docker run \
 > - `--name neo4j-docker-test` is set this container names `neo4j-docker-test`.
 > - `neo4j` is the image name. If you want to run the neo4j with special tag, just use `neo4j:<tag>`. For example: `neo4j:3.5.29-community`
 
-<img src="neo4j-eng.assets/image-20210716132553080.png" alt="image-20210716132553080" style="zoom:80%;" />
+<img src="images/image-20210716132553080.png" alt="image-20210716132553080" style="zoom:80%;" />
 
 **Press `CTRL + C` to stop this neo4j container.**
 
 After you run, it will make a folder of `neo4j/data` in the host.
 
-<img src="neo4j-eng.assets/image-20210716140635395.png" alt="image-20210716140635395" style="zoom:67%;" />
+<img src="images/image-20210716140635395.png" alt="image-20210716140635395" style="zoom:67%;" />
 
 ```shell
 # If you want to run neo4j in the backgroud, you need to add `-d` argument
@@ -260,13 +260,13 @@ docker run \
     neo4j
 ```
 
-<img src="neo4j-eng.assets/image-20210716140714670.png" alt="image-20210716140714670" style="zoom:80%;" />
+<img src="images/image-20210716140714670.png" alt="image-20210716140714670" style="zoom:80%;" />
 
 Visit http://localhost:7474/ or http://host-ip:7474 .
 
 If you want to access http://host-ip:7474 , you should open the `7474` port of the firewall in the host.
 
-<img src="neo4j-eng.assets/image-20210716134337055.png" alt="image-20210716134337055" style="zoom:67%;" />
+<img src="images/image-20210716134337055.png" alt="image-20210716134337055" style="zoom:67%;" />
 
 
 **Check the running neo4j or List all running containers**
@@ -277,7 +277,7 @@ If you want to access http://host-ip:7474 , you should open the `7474` port of t
 docker ps 
 ```
 
-<img src="neo4j-eng.assets/image-20210716141214691.png" alt="image-20210716141214691" style="zoom:80%;" />
+<img src="images/image-20210716141214691.png" alt="image-20210716141214691" style="zoom:80%;" />
 
 - **CONTAINER ID**: the container ID
 - **IMAGE**: the image for this container
@@ -295,7 +295,7 @@ docker ps
 docker ps -a
 ```
 
-<img src="neo4j-eng.assets/image-20210716141756599.png" alt="image-20210716141756599" style="zoom:67%;" />
+<img src="images/image-20210716141756599.png" alt="image-20210716141756599" style="zoom:67%;" />
 
 
 **Remove a container** 
@@ -311,7 +311,7 @@ docker rm -f neo4j-docker-test
 
 **Note:** You need to save your data before delete the container.
 
-<img src="neo4j-eng.assets/image-20210716142057406.png" alt="image-20210716142057406" style="zoom:67%;" />
+<img src="images/image-20210716142057406.png" alt="image-20210716142057406" style="zoom:67%;" />
 
 
 **The container inside**
@@ -323,7 +323,7 @@ docker rm -f neo4j-docker-test
 docker exec -it neo4j-docker bash
 ```
 
-<img src="neo4j-eng.assets/image-20210716142709751.png" alt="image-20210716142709751" style="zoom:67%;" />
+<img src="images/image-20210716142709751.png" alt="image-20210716142709751" style="zoom:67%;" />
 
 use `exit` to exit the container.
 
@@ -337,7 +337,7 @@ use `exit` to exit the container.
 docker stop neo4j-docker
 ```
 
-<img src="neo4j-eng.assets/image-20210716143353059.png" alt="image-20210716143353059" style="zoom:67%;" />
+<img src="images/image-20210716143353059.png" alt="image-20210716143353059" style="zoom:67%;" />
 
 
 **Start the neo4j container**
@@ -349,7 +349,7 @@ docker stop neo4j-docker
 docker start neo4j-docker
 ```
 
-<img src="neo4j-eng.assets/image-20210716143439345.png" alt="image-20210716143439345" style="zoom:67%;" />
+<img src="images/image-20210716143439345.png" alt="image-20210716143439345" style="zoom:67%;" />
 
 **Restart the neo4j container**
 
