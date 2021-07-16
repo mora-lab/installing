@@ -522,28 +522,38 @@ Open Linux
 Verify Internet connection
 
 ## Install java 11:
+```
 sudo yum install -y java-11-openjdk
 sudo alternatives --config java
 # Choose the java-11 option (the default is an old java-1.8 used by libreoffice)
 java -version # now the default should be java-11
+```
 
 ## Install cypher-shell:
+```
 curl -O https://dist.neo4j.org/cypher-shell/cypher-shell-4.2.2-1.noarch.rpm
 sudo rpm -U cypher-shell-4.2.2-1.noarch.rpm
+```
 
 ## Install neo4j:
+```
 curl -O https://dist.neo4j.org/rpm/neo4j-4.2.2-1.noarch.rpm
 sudo rpm -U neo4j-4.2.2-1.noarch.rpm
 neo4j version	# 4.2.2
+```
 
 ## Start neo4j:
+```
 sudo systemctl daemon-reload
 sudo neo4j start
+```
 
 Open a web browser at localhost:7474
 
 When connecting from the outside, set the following:
+```
 sudo vi /etc/neo4j/neo4j.conf
+```
 ```
 dbms.connector.bolt.address=0.0.0.0:7687
 dbms.connector.https.address=<IP address of the server>:7474
