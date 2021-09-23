@@ -32,13 +32,15 @@
 
 ## 2. Neo4j:
 
-**2.1. Neo4j community edition:** [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
+**2.1. Java:** [Here]()
 
-**2.2. Neo4j libraries:** ...
+**2.2. Neo4j community edition:** [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
 
-**2.3. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+**2.3. Neo4j libraries:** ...
 
-**2.4. py2neo:** ...
+**2.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+
+**2.5. py2neo:** ...
 <br>
 
 *Last updated: Jul.16th, 2021*
