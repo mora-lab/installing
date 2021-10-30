@@ -30,33 +30,33 @@
 
 ### Advanced Galaxy:
 
-2.4. Remote access for Galaxy, RStudio, and Planemo: ...
+2.4. Remote access for Galaxy, RStudio, and Planemo: ... []()
 
-2.5. PostgreSQL: ...
+2.5. PostgreSQL: ... []()
 
-2.6. nginx: ...
+2.6. nginx: ... []()
 
-2.7. Galaxy production server: ...
+2.7. Galaxy production server: ... []()
 
 ## 3. Databases:
 
 ### Neo4j:
 
-**3.1. Java:** ... [Here]()
+**3.1. Java:** ... []()
 
 **3.2. Neo4j community edition:** [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
 
-**3.3. Neo4j libraries:** ...
+**3.3. Neo4j libraries:** ... []()
 
 **3.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
-**3.5. py2neo:** ...
+**3.5. py2neo:** ... []()
 
-## 4. Web Platform:
+## 4. Web Platforms:
 
 **4.1. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
-**4.2. Django:**
+**4.2. Django:** ... []()
 <br>
 
 *Last updated: Oct.30th, 2021*
