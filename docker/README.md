@@ -171,7 +171,7 @@ sudo docker ps -a
 sudo docker run quay.io/galaxy/epigenetics-training	  # if it is already installed, it will just be opened
 ```
 
-## Docker Hub:
+## - Docker Hub:
 
 > 15. Many Docker projects are stored and can be downloaded from **Docker Hub**. For our projects, you can check: https://hub.docker.com/u/moralab
 
