@@ -1,6 +1,6 @@
 <img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
-# Java
+# Java for windows
 **Java** is...<br>
 
 ## - Download
@@ -59,5 +59,16 @@
 ![image-20210712171613788](images/image-20210712171613788.png)
 
 <img src="images/image-20210714164012119.png" alt="image-20210714164012119" style="zoom:80%;" />
+
+# Java for Linux CentOS
+
+> 11. To install java 11 on CentOS:
+
+```
+sudo yum install -y java-11-openjdk
+sudo alternatives --config java
+# Choose the java-11 option (the default might be an old java-1.8 used by libreoffice)
+java -version # now the default should be java-11
+```
 
 *Last updated: Oct.30th, 2021*
