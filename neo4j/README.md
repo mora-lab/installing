@@ -482,6 +482,10 @@ dbms.connector.https.address=<IP address of the server>:7474
 ```
 That will open the 7678 and 7474 ports.
 
+# Installing our Docker neo4j:
+To install our Docker neo4j 3.5.4 with graphical plugins, which we use in our neo4j+shiny platform to study COPD, follow the instructions here:
+https://hub.docker.com/r/moralab/neo4j-3.5.4
+
 <img src="images/image-20210716142011100.png" alt="image-20210716142011100" style="zoom:67%;" />
 
 *last reviewed: Oct.30th, 2021*
