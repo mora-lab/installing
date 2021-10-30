@@ -171,13 +171,17 @@ sudo docker ps -a
 sudo docker run quay.io/galaxy/epigenetics-training	  # if it is already installed, it will just be opened
 ```
 
+## Docker Hub:
+
+> 15. Many Docker projects are stored and can be downloaded from **Docker Hub**. For our projects, you can check: https://hub.docker.com/u/moralab
+
 ## - Final Notes:
 
-> 15. From the tutorial: "Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer. Fortunately, this is as easy as:
+> 16. From the tutorial: "Docker images are "read-only", all your changes inside one session will be lost after restart. This mode is useful to present Galaxy to your colleagues or to run workshops with it. To install Tool Shed repositories or to save your data you need to export the calculated data to the host computer. Fortunately, this is as easy as:
 ```
 docker run -d -p 8080:80 \
     -v /home/user/galaxy_storage/:/export/ \
     bgruening/galaxy-stable
 ````
 
-*Last updated: Antonio Mora, July 9th, 2021*
+*Last updated: Antonio Mora, Oct. 30th, 2021*
