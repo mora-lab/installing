@@ -4,6 +4,9 @@
 
 > Neo4j has two different community server,  the tag `4.+` of neo4j can has many database in the one server, and the tag `3.+` of neo4j only has one database in the one server.
 
+> 1. Install java 11 on windows:
+https://github.com/mora-lab/installing/tree/main/java
+
 ## - Installing neo4j 3.5.28
 
 > 1. Download neo4j 3.5.28 from https://neo4j.com/download-center/#community
