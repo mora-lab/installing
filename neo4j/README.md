@@ -448,14 +448,7 @@ dbms.read_only=true
 ## First steps
 * Open Linux
 * Verify Internet connection
-
-## Install java 11:
-```
-sudo yum install -y java-11-openjdk
-sudo alternatives --config java
-# Choose the java-11 option (the default is an old java-1.8 used by libreoffice)
-java -version # now the default should be java-11
-```
+* Install java 11 for Linux CentOS: https://github.com/mora-lab/installing/tree/main/java
 
 ## Install cypher-shell:
 ```
