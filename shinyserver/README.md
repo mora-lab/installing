@@ -1,7 +1,5 @@
 [TOC]
 
-
-
 # Shiny-Server
 
 Shiny server can publish shiny applications online and enables users to host and manage Shiny applications on the Internet. 
@@ -14,8 +12,6 @@ Shiny Server can manage R processes running various Shiny applications over diff
 - Ensure that R processes that crash or are terminated automatically restart for the next user requesting the application.
 
 The full guide can check on https://docs.rstudio.com/shiny-server/.
-
-
 
 ## Installation
 
@@ -35,8 +31,6 @@ wget https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.17.973-a
 sudo gdebi shiny-server-1.5.17.973-amd64.deb
 ```
 
-
-
 ### RedHat/CentOS
 
 ```shell
@@ -55,8 +49,6 @@ sudo yum install --nogpgcheck shiny-server-1.5.17.973-x86_64.rpm
 ```
 
 More detail can check on https://www.rstudio.com/products/shiny/download-server/redhat-centos/.
-
-
 
 ## Starting and Stopping
 
@@ -79,8 +71,6 @@ sudo systemctl enable shiny-server
 # disable shiny-server
 sudo systemctl disable shiny-server
 ```
-
-
 
 ## Server Management
 
@@ -119,7 +109,6 @@ server {
   }
 }
 
-
 # Setup a flat-file authentication system. {.pro}
 auth_passwd_file /etc/shiny-server/passwd;
 
@@ -129,8 +118,6 @@ admin 4151 {
   required_user admin;
 }
 ```
-
-
 
 ### Who runs the shiny Application?
 
@@ -142,13 +129,9 @@ location / {
 }
 ```
 
-
-
 ### R package for the shiny Application
 
 When you use `shiny` user to run the shiny application, you should install R package with `shiny` user.
-
-
 
 ### Define port
 
@@ -159,8 +142,6 @@ server {
   listen 80;
 }
 ```
-
-
 
 ### Location
 
@@ -186,9 +167,9 @@ server {
 }
 ```
 
+### Our Docker shinyserver image
+The following are the instructions to get our Docker shinyserver image, which has been used in our Neo4j+shiny platform to analyze COPD dynamic data.<br>
 
+https://hub.docker.com/r/moralab/shiny-server
 
-
-
-
-
+*Last updated: Oct.30th, 2021*
