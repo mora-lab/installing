@@ -8,13 +8,13 @@
 
 **1.2. Importing and exporting VMs:** Sharing virtual machines (especially those with entire bioinformatics platforms such as our Galaxy-GSA): [Here](https://github.com/mora-lab/installing/tree/main/virtualbox_impo_expo)
 
-**1.3. Docker:** : [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+**1.3. Docker:** A popular container system: [Here](https://github.com/mora-lab/installing/tree/main/docker)
 
 **1.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
 **1.5. RStudio:** A popular development environment for R programming: [Here](https://github.com/mora-lab/installing/tree/main/rstudio)
 
-**1.6. shinyserver:** ...: [Here](https://github.com/mora-lab/installing/tree/main/rstudio)
+**1.6. shinyserver:** A tool that allows us to run several R/shiny processes simultaneously over different URLs and ports: [Here](https://github.com/mora-lab/installing/tree/main/shinyserver)
 
 ## 2. A workflow for installing Galaxy:
 
@@ -42,7 +42,7 @@
 
 ### Neo4j:
 
-**3.1. Java:** [Here]()
+**3.1. Java:** ... [Here]()
 
 **3.2. Neo4j community edition:** [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
 
