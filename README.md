@@ -16,6 +16,8 @@
 
 **1.6. shinyserver:** A tool that allows us to run several R/shiny processes simultaneously over different URLs and ports: [Here](https://github.com/mora-lab/installing/tree/main/shinyserver)
 
+**1.7. Java:** A popular programming language: [Here](https://github.com/mora-lab/installing/tree/main/java)
+
 ## 2. A workflow for installing Galaxy:
 
 ### Basic Galaxy:
@@ -42,15 +44,19 @@
 
 ### Neo4j:
 
-**3.1. Java:** ... []()
+**3.1. Java:** A popular programming language: [Here](https://github.com/mora-lab/installing/tree/main/java)
 
-**3.2. Neo4j community edition:** [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
+**3.2. Neo4j (community edition):** The leading graph database: [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
 
 **3.3. Neo4j libraries:** ... []()
 
 **3.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
 **3.5. py2neo:** ... []()
+
+### SQL:
+
+**3.6. PostgreSQL:** ... []()
 
 ## 4. Web Platforms:
 
