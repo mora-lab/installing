@@ -6,10 +6,10 @@
 
 > **Shiny Server** can manage R processes running various Shiny applications over different URLs and ports. Using **Shiny Server** offers multiple benefits over simply running Shiny in R directly, including:
 
-> "- Host multiple applications simultaneously, each at its own URL.
-- Support web browsers that don't support WebSocket, including Internet Explorer 8 & 9.
-- Enable system users to develop and manage their own Shiny applications.
-- Ensure that R processes that crash or are terminated automatically restart for the next user requesting the application."
+> - Host multiple applications simultaneously, each at its own URL.
+> - Support web browsers that don't support WebSocket, including Internet Explorer 8 & 9.
+> - Enable system users to develop and manage their own Shiny applications.
+> - Ensure that R processes that crash or are terminated automatically restart for the next user requesting the application.
 
 The full manual can be found at https://docs.rstudio.com/shiny-server/.
 
@@ -76,7 +76,7 @@ sudo systemctl disable shiny-server
 
 If you want to import a shiny App to the shiny server, you can set it in the configuration file.
 
-As default, shiny server uses the following configuration file (which is installed at `/etc/shiny-server/shiny-server.conf`):
+As default, shiny server uses the following configuration file (which is found at `/etc/shiny-server/shiny-server.conf`):
 
 ```yaml
 # Define the user we should use when spawning R Shiny processes
