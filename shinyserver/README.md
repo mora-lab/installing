@@ -172,4 +172,6 @@ The following are the instructions to get our Docker shiny server image, which h
 
 https://hub.docker.com/r/moralab/shiny-server
 
+If you need help to install Docker, check [here](https://github.com/mora-lab/installing/tree/main/docker)
+
 *Last updated: Oct.30th, 2021*
