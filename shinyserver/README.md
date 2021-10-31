@@ -1,17 +1,17 @@
-[TOC]
+<img src="https://github.com/mora-lab/mora-lab.github.io/blob/master/picture/MORALAB_Banner.png">
 
-# Shiny-Server
+# Shiny Server
 
-Shiny server can publish shiny applications online and enables users to host and manage Shiny applications on the Internet. 
+**Shiny server** is a tool to publish and manage shiny applications online.
 
-Shiny Server can manage R processes running various Shiny applications over different URLs and ports. Using Shiny Server offers a variety of benefits over simply running Shiny in R directly. These features allow the administrator to:
+> **Shiny Server** can manage R processes running various Shiny applications over different URLs and ports. Using **Shiny Server** offers multiple benefits over simply running Shiny in R directly, including:
 
-- Host multiple applications simultaneously, each at its own URL.
+> "- Host multiple applications simultaneously, each at its own URL.
 - Support web browsers that don't support WebSocket, including Internet Explorer 8 & 9.
 - Enable system users to develop and manage their own Shiny applications.
-- Ensure that R processes that crash or are terminated automatically restart for the next user requesting the application.
+- Ensure that R processes that crash or are terminated automatically restart for the next user requesting the application."
 
-The full guide can check on https://docs.rstudio.com/shiny-server/.
+The full manual can be found at https://docs.rstudio.com/shiny-server/.
 
 ## Installation
 
@@ -48,7 +48,7 @@ wget https://download3.rstudio.org/centos7/x86_64/shiny-server-1.5.17.973-x86_64
 sudo yum install --nogpgcheck shiny-server-1.5.17.973-x86_64.rpm
 ```
 
-More detail can check on https://www.rstudio.com/products/shiny/download-server/redhat-centos/.
+> More details at https://www.rstudio.com/products/shiny/download-server/redhat-centos/.
 
 ## Starting and Stopping
 
@@ -74,9 +74,9 @@ sudo systemctl disable shiny-server
 
 ## Server Management
 
-If we want to import a shiny App to  the shiny-server, we can set it in configuration file.
+If you want to import a shiny App to the shiny server, you can set it in the configuration file.
 
-As default, shiny server uses the following configuration file which installed at `/etc/shiny-server/shiny-server.conf`.
+As default, shiny server uses the following configuration file (which is installed at `/etc/shiny-server/shiny-server.conf`):
 
 ```yaml
 # Define the user we should use when spawning R Shiny processes
@@ -121,7 +121,7 @@ admin 4151 {
 
 ### Who runs the shiny Application?
 
-As default, shiny Application will run by shiny user. If you want to use other user (example: tim), you can set :
+As default, the shiny Application is run by the shiny user. If you want to use a different user (example: tim), you can set:
 
 ```shell
 location / {
@@ -129,13 +129,13 @@ location / {
 }
 ```
 
-### R package for the shiny Application
+### R packages for the shiny Application
 
-When you use `shiny` user to run the shiny application, you should install R package with `shiny` user.
+When you use the `shiny` user to run the shiny application, you should install R packages with that `shiny` user.
 
 ### Define port
 
-Default port for the shiny-server is `3838`, if you want to set `80` as the shiny-server port, you can set:
+The default port for the shiny server is `3838`. If you want to set `80` as the shiny server port, you can set:
 
 ```shell
 server {
@@ -167,8 +167,8 @@ server {
 }
 ```
 
-### Our Docker shinyserver image
-The following are the instructions to get our Docker shinyserver image, which has been used in our Neo4j+shiny platform to analyze COPD dynamic data.<br>
+## Our own Docker shiny server image
+The following are the instructions to get our Docker shiny server image, which has been used in our Neo4j+shiny platform to analyze COPD dynamic data.<br>
 
 https://hub.docker.com/r/moralab/shiny-server
 
