@@ -461,4 +461,4 @@ https://hub.docker.com/r/moralab/neo4j-3.5.4
 
 <br><img src="images/image-20210716142011100.png" alt="image-20210716142011100" style="zoom:67%;" /><br>
 
-*last reviewed: Nov.11th, 2021*
+*Last reviewed: Nov.11th, 2021*
