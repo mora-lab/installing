@@ -2,18 +2,19 @@
 
 # Installing Java
 
-**Java** is a high-level, multi-platform object-oriented programming language.<br>
+**Java** is a high-level, multi-platform object-oriented programming language.<br><br>
 
 ## Java for windows:
 
 ### - Downloading:
-> 1. Download Java from https://www.oracle.com/java/technologies/downloads/. For this tutorial, download Java-11 from here: [jdk-11.0.13_windows-x64_bin.exe](https://www.oracle.com/java/technologies/downloads/#java11-windows). When you download Java, you will be asked to have an Oracle account and log in.
+> 1. Download Java from https://www.oracle.com/java/technologies/downloads/. For this tutorial, download **Java-11** from here: [jdk-11.0.11_windows-x64_bin.exe](https://www.oracle.com/java/technologies/downloads/#java11-windows). When you download Java, you will be asked to have an Oracle account and log in.
+<br>
 
 <img src="../neo4j/images/image-20210712155303913.png" alt="image-20210712155303913" style="zoom:50%;" />
 
 ### - Installing:
 
-> 2. Click on [jdk-11.0.13_windows-x64_bin.exe](jdk-11.0.13_windows-x64_bin.exe) to install Java and follow the instructions.
+> 2. Click on `jdk-11.0.11_windows-x64_bin.exe` to install Java and follow the instructions.
 <br>
 
 <img src="../neo4j/images/image-20210712160717716.png" alt="image-20210712160717716" style="zoom:67%;" />
@@ -76,7 +77,7 @@ sudo alternatives --config java
 
 > 12. Choose the **java-11** option (the default might be an old `java-1.8` used by `libreoffice`).
 
-> 13. Test the new version (now the default should be java-11).
+> 13. Test the new version (now the default should be `java-11`).
 ```
 java -version
 ```
