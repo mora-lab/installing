@@ -6,8 +6,8 @@
 
 ## Installing:
 
-> 1. Download `graph-algorithms-algo-[version].jar` from [the matching release](https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases) and copy it into the `$NEO4J_HOME/plugins ` directory. We can work out which release to download by referring to the versions file.
-<br>
+> 1. Download `graph-algorithms-algo-[version].jar` from [the matching release](https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases) and copy it into the `$NEO4J_HOME/plugins ` directory. We can work out which release to download by referring to the versions file.<br>
+
 > Download `apoc-[version-all].jar` from [the matching release](https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/) and copy it into the `$NEO4J_HOME/plugins ` directory. We can work out which release to download by referring to the versions file.
 
 <br><img src="images/image-20210715102634640.png" alt="image-20210715102634640" style="zoom:67%;" /><br>
