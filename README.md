@@ -48,7 +48,7 @@
 
 **3.2. Neo4j (community edition):** The leading graph database: [Here](https://github.com/mora-lab/installing/tree/main/neo4j)
 
-**3.3. Neo4j libraries:** ... []()
+**3.3. Neo4j libraries:** Installing two graph-theory-related plugins for neo4j: [Here](https://github.com/mora-lab/installing/tree/main/neo4j_libraries)
 
 **3.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
@@ -65,4 +65,4 @@
 **4.2. Django:** ... []()
 <br>
 
-*Last updated: Oct.30th, 2021*
+*Last updated: Nov.9th, 2021*
