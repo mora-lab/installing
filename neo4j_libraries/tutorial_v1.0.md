@@ -1,8 +1,8 @@
 # Installing algo and apoc 
 
 > 1. Download `graph-algorithms-algo-[version].jar` from [the matching release](https://github.com/neo4j-contrib/neo4j-graph-algorithms/releases) and copy it into the `$NEO4J_HOME/plugins ` directory. We can work out which release to download by referring to the versions file.
-
- Download `apoc-[version-all].jar` from [the matching release](https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/) and copy it into the `$NEO4J_HOME/plugins ` directory. We can work out which release to download by referring to the versions file.
+<br>
+> Download `apoc-[version-all].jar` from [the matching release](https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/) and copy it into the `$NEO4J_HOME/plugins ` directory. We can work out which release to download by referring to the versions file.
 
 <br><img src="images/image-20210715102634640.png" alt="image-20210715102634640" style="zoom:67%;" /><br>
 
@@ -21,7 +21,7 @@ dbms.security.procedures.unrestricted=algo.*,apoc.*
 > We need to give the library unrestricted access because the algorithms use the lower level Kernel API to read from, and to write to Neo4j.
 
 > 3. Restart Neo4j.
-
+<br>
 > 4. Verifying installation:
 
 > Once we’ve installed the library, to see a list of all the algorithms, run the following query:
