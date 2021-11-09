@@ -14,11 +14,11 @@
 
 > 1. Download neo4j 3.5.28 from https://neo4j.com/download-center/#community
 
-<img src="images/image-20210714165119253.png" alt="image-20210714165119253" style="zoom:67%;" />
+<br><img src="images/image-20210714165119253.png" alt="image-20210714165119253" style="zoom:67%;" />
 
 > 2. Uncompress the downloaded file [neo4j-community-3.5.28-windows.zip](neo4j-community-3.5.28-windows.zip) to your hard drive (here, `D:`).
 
-<img src="images/image-20210714170404902.png" alt="image-20210714170404902" style="zoom:67%;" />
+<br><img src="images/image-20210714170404902.png" alt="image-20210714170404902" style="zoom:67%;" />
 
 > 3. In the installation directory, you'll find:
 
@@ -44,39 +44,37 @@ cd neo4j-community-3.5.28\bin
 neo4j.bat console
 ```
 
-<img src="images/image-20210714170849613.png" alt="image-20210714170849613" style="zoom:67%;" />
+<br><img src="images/image-20210714170849613.png" alt="image-20210714170849613" style="zoom:67%;" />
 
 **If you want to stop neo4j, just press `Ctrl + C`.**
 
 > 5. In a browser, open http://localhost:7474/
 
-<img src="images/image-20210714171419767.png" alt="image-20210714171419767" style="zoom:67%;" />
+<br><img src="images/image-20210714171419767.png" alt="image-20210714171419767" style="zoom:67%;" />
 
 > 6. Connect using the username 'neo4j' and the default password 'neo4j'. You'll then be prompted to change the password.
 
-<img src="images/image-20210714171538944.png" alt="image-20210714171538944" style="zoom:67%;" />
+<br><img src="images/image-20210714171538944.png" alt="image-20210714171538944" style="zoom:67%;" />
 
 > 7. The following is a view of the neo4j browser:
 
-<img src="images/image-20210714171916505.png" alt="image-20210714171916505" style="zoom:50%;" />
+<br><img src="images/image-20210714171916505.png" alt="image-20210714171916505" style="zoom:50%;" />
 
 > Neo4j browser includes several practices for beginners.
 
-<img src="images/image-20210714172001739.png" alt="image-20210714172001739" style="zoom:50%;" />
-
-<img src="images/image-20210714172024658.png" alt="image-20210714172024658" style="zoom:50%;" />
-
-<img src="images/image-20210714172056992.png" alt="image-20210714172056992" style="zoom:50%;" />
+<br><img src="images/image-20210714172001739.png" alt="image-20210714172001739" style="zoom:50%;" />
+<br><img src="images/image-20210714172024658.png" alt="image-20210714172024658" style="zoom:50%;" />
+<br><img src="images/image-20210714172056992.png" alt="image-20210714172056992" style="zoom:50%;" />
 
 ## - Installing neo4j 4.3.2:
 
 > 8. Downlaod [neo4j 4.3.2](https://neo4j.com/artifact.php?name=neo4j-community-4.3.2-windows.zip) from https://neo4j.com/download-center/#community
 
-<img src="images/image-20210712171141256.png" alt="image-20210712171141256" style="zoom:67%;" />
+<br><img src="images/image-20210712171141256.png" alt="image-20210712171141256" style="zoom:67%;" />
 
 > 9. Uncompress the downloaded file [neo4j-community-4.3.2-windows.zip](neo4j-community-4.3.2-windows.zip) to your hard drive (here, `D:`).
 
-<img src="images/image-20210712171445597.png" alt="image-20210712171445597" style="zoom:67%;" />
+<br><img src="images/image-20210712171445597.png" alt="image-20210712171445597" style="zoom:67%;" />
 
 > 10. Open a terminal and, in the command line, introduce the following commands to run **neo4j**:
 
@@ -85,25 +83,25 @@ neo4j.bat console
 D:
 cd D:\neo4j-community-4.3.2\bin
 
-# run the neo4j
+# run neo4j
 neo4j.bat console
 ```
 
-<img src="images/image-20210712172242628.png" alt="image-20210712172242628" style="zoom:67%;" />
+<br><img src="images/image-20210712172242628.png" alt="image-20210712172242628" style="zoom:67%;" />
 
 > **If you want to stop running neo4j, press `Ctrl + C`.**
 
 > 11. In a browser, open http://localhost:7474/
 
-<img src="images/image-20210712172427079.png" alt="image-20210712172427079" style="zoom:67%;" />
+<br><img src="images/image-20210712172427079.png" alt="image-20210712172427079" style="zoom:67%;" />
 
 > 12. Connect using the username 'neo4j' and the default password 'neo4j'. You'll then be prompted to change the password.
 
-<img src="images/image-20210712172520981.png" alt="image-20210712172520981" style="zoom:67%;" />
+<br><img src="images/image-20210712172520981.png" alt="image-20210712172520981" style="zoom:67%;" />
 
 > 13. The following is a view of the neo4j browser:
 
-<img src="images/image-20210712172810394.png" alt="image-20210712172810394" style="zoom:50%;" />
+<br><img src="images/image-20210712172810394.png" alt="image-20210712172810394" style="zoom:50%;" />
 
 ### - Installing neo4j with Docker:
 
@@ -120,11 +118,11 @@ neo4j.bat console
 - `docker pull` is the command for downloading an image from the Registry
 - `docker run` is for running the image as a container
 
-<img src="images/architecture.svg" alt="architecture" style="zoom:80%;" />
+<br><img src="images/architecture.svg" alt="architecture" style="zoom:80%;" />
 
 #### - Docker Commands Diagram:
 
-<img src="images/cmd_logic.png" alt="cmd_logic" style="zoom:80%;" />
+<br><img src="images/cmd_logic.png" alt="cmd_logic" style="zoom:80%;" />
 
 > 14. The neo4j docker official Images can be found here: https://hub.docker.com/_/neo4j
 
@@ -136,14 +134,14 @@ docker pull neo4j
 ```
 > By default, this will download the neo4j with the 'latest' tag.
 
-<img src="images/image-20210716125322630.png" alt="image-20210716125322630" style="zoom:80%;" />
+<br><img src="images/image-20210716125322630.png" alt="image-20210716125322630" style="zoom:80%;" />
 
 > If we want to download neo4j with a special tag (for example, download neo4j 3.5.29-community):
 ```shell
 docker pull neo4j:3.5.29-community
 ```
 
-<img src="images/image-20210716125428733.png" alt="image-20210716125428733" style="zoom:80%;" />
+<br><img src="images/image-20210716125428733.png" alt="image-20210716125428733" style="zoom:80%;" />
 
 > More neo4j images can be found at https://hub.docker.com/_/neo4j?tab=tags&page=1&ordering=last_updated
 
@@ -153,7 +151,7 @@ docker pull neo4j:3.5.29-community
 docker images
 ```
 
-<img src="images/image-20210716140753556.png" alt="image-20210716140753556" style="zoom:80%;" />
+<br><img src="images/image-20210716140753556.png" alt="image-20210716140753556" style="zoom:80%;" />
 
 > - **REPOSITORY**: the image name
 > - **TAG**: the image version
@@ -177,13 +175,13 @@ docker run \
 > - `--name neo4j-docker-test` is setting the container's name (`neo4j-docker-test`).
 > - `neo4j` is the image name. If you want to run neo4j with a special tag, just use `neo4j:<tag>`. For example: `neo4j:3.5.29-community`
 
-<img src="images/image-20210716132553080.png" alt="image-20210716132553080" style="zoom:80%;" />
+<br><img src="images/image-20210716132553080.png" alt="image-20210716132553080" style="zoom:80%;" />
 
 > Press `CTRL + C` to stop this neo4j container.
 
 > 18. After running, a `neo4j/data` folder will appear in the host.
 
-<img src="images/image-20210716140635395.png" alt="image-20210716140635395" style="zoom:67%;" />
+<br><img src="images/image-20210716140635395.png" alt="image-20210716140635395" style="zoom:67%;" />
 
 > If you want to run neo4j in the backgroud, you need to add the `-d` argument:
 
@@ -196,13 +194,13 @@ docker run \
     neo4j
 ```
 
-<img src="images/image-20210716140714670.png" alt="image-20210716140714670" style="zoom:80%;" />
+<br><img src="images/image-20210716140714670.png" alt="image-20210716140714670" style="zoom:80%;" />
 
 > 19. Visit http://localhost:7474/ or http://host-ip:7474 .
 
 > If you want to access http://host-ip:7474 , you should open the `7474` port of the firewall in the host.
 
-<img src="images/image-20210716134337055.png" alt="image-20210716134337055" style="zoom:67%;" />
+<br><img src="images/image-20210716134337055.png" alt="image-20210716134337055" style="zoom:67%;" />
 
 > 20. Check the running neo4j or List all running containers:
 
@@ -229,7 +227,7 @@ docker ps
 # List all containers
 docker ps -a
 ```
-<img src="images/image-20210716141756599.png" alt="image-20210716141756599" style="zoom:67%;" />
+<br><img src="images/image-20210716141756599.png" alt="image-20210716141756599" style="zoom:67%;" />
 
 > Remove a container:
 ```shell
@@ -239,7 +237,7 @@ docker rm -f neo4j-docker-test
 > Here, `interesting_shirley` is the container name, but you can set a special name with `--name` in `docker run`.
 > The second way to delete a container is using `docker rm -f <containerID>`.
 **Note:** You need to save your data before delete the container.
-<img src="images/image-20210716142057406.png" alt="image-20210716142057406" style="zoom:67%;" />
+<br><img src="images/image-20210716142057406.png" alt="image-20210716142057406" style="zoom:67%;" />
 
 > Checking the files inside the container:
 ```shell
@@ -247,7 +245,7 @@ docker rm -f neo4j-docker-test
 # docker exec -it <containerNAME> <command>
 docker exec -it neo4j-docker bash
 ```
-<img src="images/image-20210716142709751.png" alt="image-20210716142709751" style="zoom:67%;" />
+<br><img src="images/image-20210716142709751.png" alt="image-20210716142709751" style="zoom:67%;" />
 **Use `exit` to exit the container.**
 
 > Stop the neo4j container:
@@ -256,7 +254,7 @@ docker exec -it neo4j-docker bash
 # docker stop <containerNAME>
 docker stop neo4j-docker
 ```
-<img src="images/image-20210716143353059.png" alt="image-20210716143353059" style="zoom:67%;" />
+<br><img src="images/image-20210716143353059.png" alt="image-20210716143353059" style="zoom:67%;" />
 
 > Start the neo4j container:
 ```shell
@@ -264,7 +262,7 @@ docker stop neo4j-docker
 # docker start <containerNAME>
 docker start neo4j-docker
 ```
-<img src="images/image-20210716143439345.png" alt="image-20210716143439345" style="zoom:67%;" />
+<br><img src="images/image-20210716143439345.png" alt="image-20210716143439345" style="zoom:67%;" />
 
 > Restart the neo4j container:
 ```shell
@@ -287,21 +285,19 @@ docker rmi -f $(docker images -aq)
 
 ### - neo4j configuration:
 
-Neo4j configuration can set in the file `$NEO4J_HOME/conf/neo4j.conf`.
+> 22. Neo4j configuration can set in the file `$NEO4J_HOME/conf/neo4j.conf`.
 
 #### The default database:
 
-> 28. Neo4j database will be pull in `$NEO4J_HOME/data/databases` directory.
+> 23. Neo4j database will be pulled in the `$NEO4J_HOME/data/databases` directory.
 
 > `Neo4j 4.+`:
-
 ```yaml
 # The name of the default databases
 dbms.default_database=neo4j
 ```
 
 > `Neo4j 3.+`:
-
 ```R
 # The name of the database to mount
 dbms.active_database=graph.db
@@ -332,7 +328,7 @@ dbms.memory.transaction.global_max_size=256m
 dbms.memory.transaction.max_size=16m
 ```
 
-In this tutorial, I suggest memory larger than default.
+> In this tutorial, we use more memory than the default.
 
 ```yaml
 # For example, we set memory is 10GB
@@ -342,7 +338,7 @@ dbms.memory.heap.max_size=10g
 
 #### Default directory for `LOAD CSV`:
 
-Default directory for `LOAD CSV` is `$NEO4J_HOME/import`.
+> 24. Default directory for `LOAD CSV` is `$NEO4J_HOME/import`.
 
 ```yaml
 # This setting constrains all `LOAD CSV` import files to be under the `import` directory. Remove or comment it out to
@@ -353,7 +349,7 @@ dbms.directories.import=import
 
 ### - Network configuration:
 
-Remote access:
+> 25. Remote access:
 
 ```yaml
 # With default configuration Neo4j only accepts local connections.
@@ -361,7 +357,7 @@ Remote access:
 dbms.connectors.default_listen_address=0.0.0.0
 ```
 
-Change the port:
+> 26. Change the port:
 
 ```yaml
 # Bolt connector
@@ -378,7 +374,7 @@ dbms.connector.https.enabled=true
 dbms.connector.https.listen_address=:7473
 ```
 
-Neo4j worker threads：
+> 27. Neo4j worker threads：
 
 ```yaml
 # Number of Neo4j worker threads.
@@ -387,7 +383,7 @@ Neo4j worker threads：
 
 ### - Plugins configuration:
 
-plugins should be put in the folder `$NEO4J_HOME/plugins`.
+> 28. Plugins should be put in the folder `$NEO4J_HOME/plugins`.
 
 ```yaml
 # A comma separated list of procedures and user defined functions that are allowed
@@ -399,7 +395,7 @@ plugins should be put in the folder `$NEO4J_HOME/plugins`.
 #dbms.security.procedures.whitelist=apoc.coll.*,apoc.load.*
 ```
 
-Example: add `apoc` and `algo` plugins.
+> Example: add `apoc` and `algo` plugins.
 
 ```yaml
 dbms.security.procedures.unrestricted=algo.*,apoc.*
@@ -413,7 +409,7 @@ dbms.security.procedures.unrestricted=algo.*,apoc.*
 #dbms.read_only=false 
 ```
 
-only Allow read operations set it as:
+> only Allow read operations set it as:
 
 ```yaml
 dbms.read_only=true
@@ -445,10 +441,10 @@ sudo systemctl daemon-reload
 sudo neo4j start
 ```
 
-Open a web browser at localhost:7474
+> Open a web browser at localhost:7474
 
 ### - Connecting from outside:
-When connecting from the outside, set the following:
+> When connecting from the outside, set the following:
 ```
 sudo vi /etc/neo4j/neo4j.conf
 ```
@@ -456,12 +452,12 @@ sudo vi /etc/neo4j/neo4j.conf
 dbms.connector.bolt.address=0.0.0.0:7687
 dbms.connector.https.address=<IP address of the server>:7474
 ```
-That will open the 7678 and 7474 ports.
+> That will open the 7678 and 7474 ports.
 
 ## Installing our Docker neo4j:
-To install our Docker neo4j 3.5.4 with graphical plugins, which we use in our neo4j+shiny platform to study COPD, follow the instructions here:
+> To install our Docker neo4j 3.5.4 with graphical plugins, which we use in our neo4j+shiny platform to study COPD, follow the instructions here:
 https://hub.docker.com/r/moralab/neo4j-3.5.4
 
-<img src="images/image-20210716142011100.png" alt="image-20210716142011100" style="zoom:67%;" />
+<br><img src="images/image-20210716142011100.png" alt="image-20210716142011100" style="zoom:67%;" />
 
-*last reviewed: Oct.30th, 2021*
+*last reviewed: Nov.11th, 2021*
