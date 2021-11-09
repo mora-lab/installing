@@ -19,7 +19,7 @@
 
 <img src="../neo4j/images/image-20210712160717716.png" alt="image-20210712160717716" style="zoom:67%;" />
 
-> **Note: You must remember the directory where you are installing Java, as we will use the path to set the environment variable for JAVA.**
+> **Note: You must remember the directory where you are installing Java, as we will use the path to set the environment variables.**
 <br>
 
 <img src="../neo4j/images/image-20210712160834564.png" alt="image-20210712160834564" style="zoom:67%;" />
@@ -42,7 +42,7 @@
 
 <img src="../neo4j/images/image-20210712165940834.png" alt="image-20210712165940834" style="zoom:67%;" />
 
-> 6. Set `Variable name` as `JAVA_HOME11` and `Variable value` as the path of installing JAVA (the path of JAVA in my computer is `C:\Program Files\Java\jdk-11.0.13`).
+> 6. Set `Variable name` as `JAVA_HOME11` and `Variable value` as the path of installing JAVA (the path of JAVA in my computer is `C:\Program Files\Java\jdk-11.0.11`).
 <br>
 
 <img src="../neo4j/images/image-20210712170101843.png" alt="image-20210712170101843" style="zoom:80%;" />
@@ -69,7 +69,7 @@
 
 ## Java for Linux CentOS:
 
-> 11. To install java 11 on **CentOS**:
+> 11. To install java-11 on **CentOS**:
 ```
 sudo yum install -y java-11-openjdk
 sudo alternatives --config java
