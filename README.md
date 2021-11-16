@@ -10,13 +10,15 @@
 
 **1.3. Docker:** A popular container system: [Here](https://github.com/mora-lab/installing/tree/main/docker)
 
-**1.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+**1.4. VSCode:** ... []()
 
-**1.5. RStudio:** A popular development environment for R programming: [Here](https://github.com/mora-lab/installing/tree/main/rstudio)
+**1.5. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
 
-**1.6. shinyserver:** A tool that allows us to run several R/shiny processes simultaneously over different URLs and ports: [Here](https://github.com/mora-lab/installing/tree/main/shinyserver)
+**1.6. RStudio:** A popular development environment for R programming: [Here](https://github.com/mora-lab/installing/tree/main/rstudio)
 
-**1.7. Java:** A popular programming language: [Here](https://github.com/mora-lab/installing/tree/main/java)
+**1.7. shinyserver:** A tool that allows us to run several R/shiny processes simultaneously over different URLs and ports: [Here](https://github.com/mora-lab/installing/tree/main/shinyserver)
+
+**1.8. Java:** A popular programming language: [Here](https://github.com/mora-lab/installing/tree/main/java)
 
 ## 2. A workflow for installing Galaxy:
 
@@ -50,9 +52,11 @@
 
 **3.3. Neo4j libraries:** Installing two graph-theory-related plugins for neo4j: [Here](https://github.com/mora-lab/installing/tree/main/neo4j_libraries)
 
-**3.4. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+**3.4. VSCode:** ... []()
 
-**3.5. py2neo:** ... []()
+**3.5. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+
+**3.6. py2neo:** ... []()
 
 ### SQL:
 
@@ -60,9 +64,11 @@
 
 ## 4. Web Platforms:
 
-**4.1. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+**4.1. VSCode:** ... []()
 
-**4.2. Django:** ... []()
+**4.2. Anaconda:** A popular python distribution: [Here](https://github.com/mora-lab/installing/tree/main/anaconda)
+
+**4.3. Django:** ... []()
 <br>
 
-*Last updated: Nov.9th, 2021*
+*Last updated: Nov.16th, 2021*
