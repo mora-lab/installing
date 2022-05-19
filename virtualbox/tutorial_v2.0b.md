@@ -17,7 +17,7 @@
 
 > 3. If you haven't installed VirtualBox, first go to our tutorial to install it:
 
-[How to install VBox](https://download.virtualbox.org/virtualbox/6.1.34/VBoxGuestAdditions_6.1.34.iso)
+> [How to install VirtualBox](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0a.md)
 
 ## - Creating a new Virtual Machine
 <br>
