@@ -8,14 +8,14 @@
 ## - Installing VirtualBox
 <br>
 
-> 1. If you haven't installed VirtualBox, first go to our tutorial to install it:
+> 1. If you haven't installed **VirtualBox**, first go to our tutorial to install it:
 
 > [How to install VirtualBox](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0a.md)
 
 ## - Importing a new Virtual Machine
 <br>
 
-> 2. Open VirtualBox. Instead of creating a new VM from scratch, as we learned [here](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md), we might need to either import an existing virtual machine, with all its software and data, or export a virtual machine with all the software and data that we might have created. Two easy ways of doing that is by sharing a Virtual Disk Image (VDI) or an appliance (Open Virtualization format Archive, OVA).
+> 2. Open **VirtualBox**. Instead of creating a new VM from scratch, as we learned [here](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md), we might need to import an existing virtual machine, with all its software and data. Two easy ways of doing that is by sharing a Virtual Disk Image (VDI) or an appliance (Open Virtualization format Archive, OVA).
 
 ## - Importing virtual disk images (VDI files):
 
@@ -49,7 +49,7 @@
 
 ## - Importing appliances (OVA files):
 
-> 9. First, get your OVA file. One example of OVA files that can be used in this tutorial is [PiRate](https://www.seanoe.org/data/00406/51795/data/53095.ova). Download the OVA file.
+> 9. First, get your OVA file. One example of OVA files that can be used in this tutorial is our [Galaxy-GSA](https://www.zenodo.org/53095). Download the OVA file [here](https://www.zenodo.org/53095.ova).
 
 > 10. Open **Virtual Box**. In the *File* menu, select *Import Appliance* and then choose your OVA file.
 <br>
