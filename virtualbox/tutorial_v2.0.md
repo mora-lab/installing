@@ -106,25 +106,25 @@
 ## - Installing the OS in our VM (CentOS-Stream-9)
 <br>
 
-> 10. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, and, finally, click on "Create" and select the downloaded ISO file.
+> 12. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, find the ISO file of our OS that you previously downloaded, and, finally, click on "Create" and select the downloaded ISO file.
 
 <br>
-<img src="images/VBox19.PNG" width="400">
+<img src="images/VBox79.PNG" width="400">
 <br>
-<img src="images/VBox20.PNG" width="400">
+<img src="images/VBox80.PNG" width="400">
 <br>
-<img src="images/VBox21.PNG" width="400">
+<img src="images/VBox81.PNG" width="400">
 <br>
-<img src="images/VBox22.PNG" width="400">
-<br>
-
-> 11. Press **Start** and the installation process will begin.
-
-<br>
-<img src="images/VBox23.PNG" width="400">
+<img src="images/VBox82.PNG" width="400">
 <br>
 
-> 12. Choose language and installation destination (hard disk). 
+> 13. Press **Start** and the installation process will begin.
+
+<br>
+<img src="images/VBox83.PNG" width="400">
+<br>
+
+> 14. Choose language and installation destination (hard disk). 
 
 <br>
 <img src="images/VBox24.PNG" width="400">
@@ -134,13 +134,13 @@
 <img src="images/VBox26.PNG" width="400">
 <br>
 
-> 13. Choose the base environment and additional software. We select a **"Workstation"** with GNOME, Internet, Office, and Development applications, but CentOS offers other possibilities such as servers and servers with GUI.
+> 15. Choose the base environment and additional software. We select a **"Workstation"** with GNOME, Internet, Office, and Development applications, but CentOS offers other possibilities such as servers and servers with GUI.
 
 <br>
 <img src="images/VBox27.PNG" width="400">
 <br>
 
-> 14. Choose time/date and password, and you are ready to start installing CentOS.
+> 16. Choose time/date and password, and you are ready to start installing CentOS.
 
 <br>
 <img src="images/VBox28.PNG" width="400">
@@ -150,13 +150,13 @@
 <img src="images/VBox30.PNG" width="400">
 <br>
 
-> 15. Press **"Begin installation"** and reboot after the process is finished.
+> 17. Press **"Begin installation"** and reboot after the process is finished.
 
 <br>
 <img src="images/VBox32.PNG" width="400">
 <br>
 
-> 16. Accept the license agreement.
+> 18. Accept the license agreement.
 
 <br>
 <img src="images/VBox33.PNG" width="400">
@@ -166,13 +166,13 @@
 <img src="images/VBox35.PNG" width="400">
 <br>
 
-> 17. Click on **Finish configuration**, and choose your privacy options.
+> 19. Click on **Finish configuration**, and choose your privacy options.
 
 <br>
 <img src="images/VBox37.PNG" width="400">
 <br>
 
-> 18. Finally, select your username and password.
+> 20. Finally, select your username and password.
 
 <br>
 <img src="images/VBox38.PNG" width="400">
@@ -182,16 +182,16 @@
 <img src="images/VBox40.PNG" width="400">
 <br>
 
-> 19. CentOS-8 is ready to be used inside the VirtualBox. However, you might find annoying that the resolution is low, the screen size stays small even if you maximize, and other details, so the next step is advised.
+> 21. CentOS-8 is ready to be used inside the VirtualBox. However, you might find annoying that the resolution is low, the screen size stays small even if you maximize, and other details, so the next step is advised.
 
 <br>
 <img src="images/VBox41.PNG" width="400">
 <br>
 
-## - Installing CentOS-8 Guest Additions
+## - Installing CentOS-Stream-9 Guest Additions
 <br>
 
-> 20. Inside CentOS, go to **Devices**, **Insert Guest Additions CD image**, and follow the procedure.
+> 22. Inside CentOS, go to **Devices**, **Insert Guest Additions CD image**, and follow the procedure.
 
 <br>
 <img src="images/VBox47.PNG" width="400">
@@ -205,7 +205,9 @@
 <img src="images/VBox51.PNG" width="400">
 <br>
 
-> 21. After restarting, you can immediately observe the changes in the screen. Also, you can now mount an USB drive.
+> 23. After restarting, you can immediately observe the changes in the screen.
+
+## - Final result
 
 > If you want to mount an USB drive, power off the VM and open the Settings.
 
@@ -225,7 +227,7 @@
 <img src="images/VBox57.PNG" width="600">
 <br>
 
-> 25. That's it. Now you have a fully functional **CentOS-Stream-8** VM in a **Windows 10** computer.
+> 25. That's it. Now you have a fully functional **CentOS-Stream-9** VM in a **Windows 10** computer.
 
 <br>
 <img src="images/VBox52.PNG" width="800">
