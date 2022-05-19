@@ -22,7 +22,7 @@
 ## - Creating a new Virtual Machine
 <br>
 
-> 4. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
+> 4. Open VirtualBox. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
 
 <br>
 <img src="images/VBox69.PNG" width="400">
