@@ -21,7 +21,7 @@
 
 > 3. Get your VDI file: You can find multiple VDIs on Internet (for example, at [OSBoxes](https://www.osboxes.org/virtualbox-images/), [Virtualboxes](https://virtualboxes.org/images/), or [VirtualDiskImages](http://virtualdiskimages.weebly.com/virtualbox.html)). For the purposes of this tutorial, download and unzip an image of [Lubuntu 20.04.1](https://sourceforge.net/projects/osboxes/files/v/vb/33-Lb--t/20.04.1/L20.04.1-VB-64bit.7z/download), which is a lightweight version of Ubuntu Linux.
 
-> 4. Open **Virtual Box** and create a VM following the steps 1-7(a) of our [tutorial](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md).
+> 4. Open **Virtual Box** and create a VM following the steps 1-8 of our [tutorial](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md).
 
 <br>
 <img src="images/d01.PNG" width="600">
