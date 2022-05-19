@@ -3,7 +3,7 @@
 # Installing Oracle VM VirtualBox
 <br>
 
-> The following are the instructions to install a virtual machine in **Windows 10** (now referred as the "host" operative system). The chosen virtual machine is **VirtualBox 6.1.18** and the system we will add "inside" the VM will be the **CentOS-Stream-8** Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
+> The following are the instructions to install a virtual machine in **Windows 10** (now referred as the "host" operative system). The chosen virtual machine is **VirtualBox 6.1.34** and the system we will add "inside" the VM will be the **CentOS-Stream-9** Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
 
 ## - Downloads
 <br>
