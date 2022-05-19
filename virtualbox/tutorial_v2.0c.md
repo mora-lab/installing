@@ -21,7 +21,8 @@
 
 > 3. Get your VDI file: You can find multiple VDIs on Internet (for example, at [OSBoxes](https://www.osboxes.org/virtualbox-images/), [Virtualboxes](https://virtualboxes.org/images/), or [VirtualDiskImages](http://virtualdiskimages.weebly.com/virtualbox.html)). For the purposes of this tutorial, download and unzip an image of [Lubuntu 20.04.1](https://sourceforge.net/projects/osboxes/files/v/vb/33-Lb--t/20.04.1/L20.04.1-VB-64bit.7z/download), which is a lightweight version of Ubuntu Linux.
 
-> 4. Open **Virtual Box** and create a VM following the steps 1-7(a) of our [tutorial](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v1.0.md).
+> 4. Open **Virtual Box** and create a VM following the steps 1-7(a) of our [tutorial](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md).
+
 <br>
 <img src="images/d01.PNG" width="600">
 <br>
@@ -31,11 +32,13 @@
 > 5. After you give a name to the VM and assign memory (and before assigning disk space and installing the OS), move the VDI file inside the new VM folder (the name you just assigned).
 
 > 6. When you are in the "Create virtual machine/Hard disk" step, choose "Use an existing virtual hard disk file", click on the small folder, and find your VDI file.
+
 <br>
 <img src="images/d03.PNG" width="600">
 <br>
 
 > 7. Double-click and run the new VM.
+
 <br>
 <img src="images/d04.PNG" width="600">
 <br>
@@ -43,6 +46,7 @@
 <br>
 
 > 8. Type the password and that's it. (Note: For all OSboxes' VDIs, username=osboxes, password=osboxes.org, root account password=osboxes.org).
+
 <br>
 <img src="images/d06.PNG" width="600">
 <br>
@@ -52,6 +56,7 @@
 > 9. First, get your OVA file. One example of OVA files that can be used in this tutorial is our [Galaxy-GSA](https://www.zenodo.org/53095). Download the OVA file [here](https://www.zenodo.org/53095.ova).
 
 > 10. Open **Virtual Box**. In the *File* menu, select *Import Appliance* and then choose your OVA file.
+
 <br>
 <img src="images/e01.PNG" width="600">
 <br>
@@ -59,6 +64,7 @@
 <br>
 
 > 11. You will get a box with the appliance settings. To avoid problems, uncheck all the controllers and update your base folder.
+
 <br>
 <img src="images/e03.PNG" width="600">
 <br>
@@ -66,11 +72,13 @@
 <br>
 
 > 12. Click on **Import**.
+
 <br>
 <img src="images/e04.PNG" width="600">
 <br>
 
 > 13. Double-click on your new VM.
+
 <br>
 <img src="images/e05.PNG" width="600">
 <br>
