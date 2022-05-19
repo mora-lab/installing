@@ -106,7 +106,7 @@
 ## - Installing the OS in our VM (CentOS-Stream-9)
 <br>
 
-> 12. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, find the ISO file of our OS that you previously downloaded, and, finally, click on "Create" and select the downloaded ISO file.
+> 12. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, click on "Add" and find the ISO file of our OS that you previously downloaded, and, finally, select the downloaded ISO file and click on "Create".
 
 <br>
 <img src="images/VBox79.PNG" width="400">
@@ -182,7 +182,7 @@
 <img src="images/VBox40.PNG" width="400">
 <br>
 
-> 21. CentOS-8 is ready to be used inside the VirtualBox. However, you might find annoying that the resolution is low, the screen size stays small even if you maximize, and other details, so the next step is advised.
+> 21. CentOS-9 is ready to be used inside the VirtualBox. However, you might find annoying that the resolution is low, the screen size stays small even if you maximize, and other details, so the next step is advised.
 
 <br>
 <img src="images/VBox41.PNG" width="400">
@@ -208,12 +208,6 @@
 > 23. After restarting, you can immediately observe the changes in the screen.
 
 ## - Final result
-
-> If you want to mount an USB drive, power off the VM and open the Settings.
-
-<br>
-<img src="images/VBox53.PNG" width="600">
-<br>
 
 > 23. Open the VM, and find the USB drive at *Devices - USB - NameoftheUSB*.
 
