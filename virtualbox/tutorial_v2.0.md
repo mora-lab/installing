@@ -18,27 +18,44 @@
 > 3. Run VirtualBox installation file. After running, you will receive a welcome message giving start to the installation process.
 
 <br>
-<img src="images/VBox01.PNG" width="400">
+<img src="images/VBox58.PNG" width="400">
 <br>
 
 > 4. Choose your desired location and other options.
 
 <br>
-<img src="images/VBox02.PNG" width="400">
+<img src="images/VBox59.PNG" width="400">
 <br>
-<img src="images/VBox03.PNG" width="400">
+<img src="images/VBox60.PNG" width="400">
 <br>
-<img src="images/VBox04.PNG" width="400">
+<img src="images/VBox61.PNG" width="400">
 <br>
-<img src="images/VBox05.PNG" width="400">
+<img src="images/VBox62.PNG" width="400">
 <br>
 
 > 5. After this, VirtualBox will be installed.
 
 <br>
-<img src="images/VBox06.PNG" width="400">
+<img src="images/VBox63.PNG" width="400">
 <br>
 <img src="images/VBox07.PNG" width="400">
+<br>
+
+## - Installing the extension pack
+<br>
+
+> 6. To add the VBox extension pack, click on **"Preferences"** and find the file we previously downloaded.
+
+<br>
+<img src="images/VBox64.PNG" width="400">
+<br>
+<img src="images/VBox65.PNG" width="400">
+<br>
+<img src="images/VBox66.PNG" width="400">
+<br>
+<img src="images/VBox67.PNG" width="400">
+<br>
+<img src="images/VBox68.PNG" width="400">
 <br>
 
 ## - Creating a new Virtual Machine
