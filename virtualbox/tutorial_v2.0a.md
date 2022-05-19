@@ -3,7 +3,7 @@
 # Installing Oracle VM VirtualBox
 <br>
 
-> The following are the instructions to install a virtual machine in **Windows 10** (now referred as the "host" operative system). The chosen virtual machine is **VirtualBox 6.1.34** and the system we will add "inside" the VM will be the **CentOS-Stream-9** Linux system (now referred as the "guest" operative system), but a similar process can be followed for other host and guest OS.
+> The following are the instructions to install a virtual machine (VM) in **Windows 10** (now referred as the "host" operative system). The chosen virtual machine is **VirtualBox 6.1.34**.
 
 ## - Downloads
 <br>
@@ -14,13 +14,13 @@
 ## - Installing VirtualBox
 <br>
 
-> 3. Run VirtualBox installation file. After running, you will receive a welcome message giving start to the installation process.
+> 2. Run VirtualBox installation file. After running, you will receive a welcome message giving start to the installation process.
 
 <br>
 <img src="images/VBox58.PNG" width="400">
 <br>
 
-> 4. Choose your desired location and other options.
+> 3. Choose your desired location and other options.
 
 <br>
 <img src="images/VBox59.PNG" width="400">
@@ -32,7 +32,7 @@
 <img src="images/VBox62.PNG" width="400">
 <br>
 
-> 5. After this, VirtualBox will be installed.
+> 4. After this, VirtualBox will be installed.
 
 <br>
 <img src="images/VBox63.PNG" width="400">
@@ -43,7 +43,7 @@
 ## - Installing the extension pack
 <br>
 
-> 6. To add the VBox extension pack, click on **"Preferences"** and find the file we previously downloaded.
+> 5. To add the VBox extension pack, click on **"Preferences"** and find the file we previously downloaded.
 
 <br>
 <img src="images/VBox64.PNG" width="400">
@@ -60,10 +60,10 @@
 ## - Alternatives to build a new Virtual Machine
 <br>
 
-> 7. Once you have installed VirtualBox, you might want to follow one of two alternatives:
+> 6. Once you have installed VirtualBox, you might want to follow one of two alternatives:
 
-[Create a new VM from scratch](https://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34-150636-Win.exe)
+> [Create a new VM from scratch](https://github.com/mora-lab/installing/edit/main/virtualbox/tutorial_v2.0b.md)
 
-[Import an existing VM](https://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34-150636-Win.exe)
+> [Import an existing VM](https://github.com/mora-lab/installing/edit/main/virtualbox/tutorial_v2.0c.md)
 
 *Last updated: Antonio Mora, May 19th, 2022*
