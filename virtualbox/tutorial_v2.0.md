@@ -61,39 +61,49 @@
 ## - Creating a new Virtual Machine
 <br>
 
-> 6. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
+> 7. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
 
 <br>
-<img src="images/VBox11.PNG" width="400">
+<img src="images/VBox69.PNG" width="400">
 <br>
 
-> 7. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 40 GB hard disk.
+> 8. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 40 GB hard disk.
 
 <br>
-<img src="images/VBox12.PNG" width="400">
+<img src="images/VBox70.PNG" width="400">
 <br>
-<img src="images/VBox13.PNG" width="400">
+<img src="images/VBox71.PNG" width="400">
 <br>
-<img src="images/VBox14.PNG" width="400">
+<img src="images/VBox72.PNG" width="400">
 <br>
-<img src="images/VBox15.PNG" width="400">
+<img src="images/VBox73.PNG" width="400">
 <br>
-<img src="images/VBox16.PNG" width="400">
+<img src="images/VBox74.PNG" width="400">
 <br>
 
-> 8. After this, your first Virtual Machine will be created.
+> 9. After this, your first Virtual Machine will be created.
 
 <br>
 <img src="images/VBox17.PNG" width="400">
 <br>
 
-> 9. Optional: To improve the video memory, go to **Settings**, **Display**, and **Screen**. Here we raised the video memory from the specified value to 128 MB.
+> 10. Optional: To improve the video memory, go to **Settings**, **Display**, and **Screen**. Here we raised the video memory from the specified value to 128 MB.
 
 <br>
-<img src="images/VBox18.PNG" width="400">
+<img src="images/VBox75.PNG" width="400">
 <br>
 
-## - Installing CentOS-8
+> 11. Optional: Go to *Settings - USB*, press the right side icon, and find the device you want to mount.
+
+<br>
+<img src="images/VBox76.PNG" width="600">
+<br>
+<img src="images/VBox77.PNG" width="600">
+<br>
+<img src="images/VBox78.PNG" width="600">
+<br>
+
+## - Installing the OS in our VM (CentOS-Stream-9)
 <br>
 
 > 10. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, and, finally, click on "Create" and select the downloaded ISO file.
@@ -201,14 +211,6 @@
 
 <br>
 <img src="images/VBox53.PNG" width="600">
-<br>
-
-> 22. Go to *Settings - USB*, press the right side icon, and find the device you want to mount.
-
-<br>
-<img src="images/VBox54.PNG" width="600">
-<br>
-<img src="images/VBox55.PNG" width="600">
 <br>
 
 > 23. Open the VM, and find the USB drive at *Devices - USB - NameoftheUSB*.
