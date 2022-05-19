@@ -149,7 +149,7 @@
 <img src="images/VBox41.PNG" width="400">
 <br>
 
-## - Installing CentOS-Stream-9 Guest Additions
+## - Installing VirtualBox Guest Additions
 <br>
 
 > 19. Inside CentOS, go to **Devices**, **Insert Guest Additions CD image**, and follow the procedure.
