@@ -37,7 +37,7 @@
 <br>
 <img src="images/VBox63.PNG" width="400">
 <br>
-<img src="images/VBox07.PNG" width="400">
+<img src="images/VBox07.png" width="400">
 <br>
 
 ## - Installing the extension pack
@@ -48,13 +48,13 @@
 <br>
 <img src="images/VBox64.PNG" width="400">
 <br>
-<img src="images/VBox65.PNG" width="400">
+<img src="images/VBox65.png" width="400">
 <br>
-<img src="images/VBox66.PNG" width="400">
+<img src="images/VBox66.png" width="400">
 <br>
-<img src="images/VBox67.PNG" width="400">
+<img src="images/VBox67.png" width="400">
 <br>
-<img src="images/VBox68.PNG" width="400">
+<img src="images/VBox68.png" width="400">
 <br>
 
 ## - Alternatives to build a new Virtual Machine
