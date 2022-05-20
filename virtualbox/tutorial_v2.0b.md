@@ -45,7 +45,7 @@
 > 6. After this, your first Virtual Machine will be created.
 
 <br>
-<img src="images/VBox17.PNG" width="400">
+<img src="images/VBox84.PNG" width="400">
 <br>
 
 > 7. Optional: To improve the video memory, go to **Settings**, **Display**, and **Screen**. Here we raised the video memory from the specified value to 128 MB.
