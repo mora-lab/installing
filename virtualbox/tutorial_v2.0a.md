@@ -37,7 +37,7 @@
 <br>
 <img src="images/VBox63.PNG" width="400">
 <br>
-<img src="images/VBox07.png" width="400">
+<img src="images/VBox07.png" width="500">
 <br>
 
 ## - Installing the extension pack
