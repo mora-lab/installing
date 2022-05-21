@@ -26,7 +26,7 @@
 <img src="images/VBox69.PNG" width="400">
 <br>
 
-> 5. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 80 GB hard disk.
+> 4. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 80 GB hard disk.
 
 <br>
 <img src="images/VBox70.PNG" width="400">
@@ -40,19 +40,19 @@
 <img src="images/VBox74.PNG" width="400">
 <br>
 
-> 6. After this, your first Virtual Machine will be created.
+> 5. After this, your first Virtual Machine will be created.
 
 <br>
 <img src="images/VBox84.PNG" width="400">
 <br>
 
-> 7. Optional: To improve the video memory, go to **Settings**, **Display**, and **Screen**. Here we raised the video memory from the specified value to 128 MB.
+> 6. Optional: To improve the video memory, go to **Settings**, **Display**, and **Screen**. Here we raised the video memory from the specified value to 128 MB.
 
 <br>
-<img src="images/VBox75.PNG" width="400">
+<img src="images/VBox75.PNG" width="500">
 <br>
 
-> 8. Optional: Go to *Settings - USB*, press the right side icon, and find the device you want to mount.
+> 7. Optional: Go to *Settings - USB*, press the right side icon, and find the device you want to mount.
 
 <br>
 <img src="images/VBox76.PNG" width="600">
@@ -62,10 +62,10 @@
 <img src="images/VBox78.PNG" width="600">
 <br>
 
-## - Installing the OS in our VM (CentOS-Stream-9)
+## - Installing the OS in our VM (Mint-20.3-xfce)
 <br>
 
-> 9. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, click on "Add" and find the ISO file of our OS that you previously downloaded, and, finally, select the downloaded ISO file and click on "Create".
+> 8. Now we can proceed to install the OS for our new VM: First, click on the new VM and the "Select startup disk" window will be opened. Then click on the small folder icon to get the "Optical disk selector" window, click on "Add" and find the ISO file of our OS that you previously downloaded, and, finally, select the downloaded ISO file and click on "Create".
 
 <br>
 <img src="images/VBox79.PNG" width="400">
@@ -77,113 +77,133 @@
 <img src="images/VBox82.PNG" width="400">
 <br>
 
-> 10. Press **Start** and the installation process will begin.
+> 9. Press **Start** and the installation process will begin.
 
 <br>
 <img src="images/VBox83.PNG" width="400">
 <br>
 
-> 11. Choose language and installation destination (hard disk). 
+> 10. Click on "Install Linux Mint".
 
 <br>
-<img src="images/VBox24.PNG" width="400">
-<br>
-<img src="images/VBox25.PNG" width="400">
-<br>
-<img src="images/VBox26.PNG" width="400">
+<img src="images/VBox85.PNG" width="400">
 <br>
 
-> 12. Choose the base environment and additional software. We select a **"Workstation"** with GNOME, Internet, Office, and Development applications, but CentOS offers other possibilities such as servers and servers with GUI.
+> 11. Select installation language and keyboard layout. 
 
 <br>
-<img src="images/VBox27.PNG" width="400">
+<img src="images/VBox86.PNG" width="400">
+<br>
+<img src="images/VBox87.PNG" width="400">
 <br>
 
-> 13. Choose time/date and password, and you are ready to start installing CentOS.
+> 12. Select installation type options, including multimedia codecs and erase disk options.
 
 <br>
-<img src="images/VBox28.PNG" width="400">
+<img src="images/VBox88.PNG" width="400">
 <br>
-<img src="images/VBox29.PNG" width="400">
+<img src="images/VBox89.PNG" width="400">
 <br>
-<img src="images/VBox30.PNG" width="400">
+<img src="images/VBox90.PNG" width="400">
 <br>
-
-> 14. Press **"Begin installation"** and reboot after the process is finished.
-
-<br>
-<img src="images/VBox32.PNG" width="400">
+<img src="images/VBox91.PNG" width="400">
 <br>
 
-> 15. Accept the license agreement.
+> 13. Choose location, username, and password.
 
 <br>
-<img src="images/VBox33.PNG" width="400">
+<img src="images/VBox92.PNG" width="400">
 <br>
-<img src="images/VBox34.PNG" width="400">
-<br>
-<img src="images/VBox35.PNG" width="400">
+<img src="images/VBox93.PNG" width="400">
 <br>
 
-> 16. Click on **Finish configuration**, and choose your privacy options.
+> 14. Linux Mint will then be installed. After installation is finished, you will be prompted to press **Restart Now** and **Enter**.
 
 <br>
-<img src="images/VBox37.PNG" width="400">
+<img src="images/VBox94.PNG" width="400">
+<br>
+<img src="images/VBox95.PNG" width="400">
+<br>
+<img src="images/VBox96.PNG" width="400">
 <br>
 
-> 17. Finally, select your username and password.
+> 15. Type your password and you should gain access to Linux Mint.
 
 <br>
-<img src="images/VBox38.PNG" width="400">
+<img src="images/VBox97.PNG" width="400">
 <br>
-<img src="images/VBox39.PNG" width="400">
-<br>
-<img src="images/VBox40.PNG" width="400">
+<img src="images/VBox98.PNG" width="400">
 <br>
 
-> 18. CentOS-9 is ready to be used inside the VirtualBox. However, you might find annoying that the resolution is low, the screen size stays small even if you maximize, and other details, so the next step is advised.
+> 16. If the **Update Manager** icon displays a red spot, you may need to click to update some of the software.
 
 <br>
-<img src="images/VBox41.PNG" width="400">
+<img src="images/VBox99.PNG" width="400">
 <br>
+<img src="images/VBox99b.PNG" width="400">
+<br>
+
+> 17. As an alternative, we can use **apt update** and **apt upgrade**.
+
+<br>
+<img src="images/VBox100.PNG" width="400">
+<br>
+<img src="images/VBox101.PNG" width="400">
+<br>
+
+> 18. Linux Mint is ready to be used inside the VirtualBox. However, you might find annoying that the resolution is low, the screen size stays small even if you maximize, and other details, so the next step is advised.
 
 ## - Installing VirtualBox Guest Additions
 <br>
 
-> 19. Inside CentOS, go to **Devices**, **Insert Guest Additions CD image**, and follow the procedure.
+> 19. Open a terminal and follow the procedure.
 
 <br>
-<img src="images/VBox47.PNG" width="400">
+<img src="images/VBox102.PNG" width="400">
 <br>
-<img src="images/VBox48.PNG" width="400">
-<br>
-<img src="images/VBox49.PNG" width="400">
-<br>
-<img src="images/VBox50.PNG" width="400">
-<br>
-<img src="images/VBox51.PNG" width="400">
+<img src="images/VBox103.PNG" width="400">
 <br>
 
-> 20. After restarting, you can immediately observe the changes in the screen.
+> 20. In the VM menu, go to **Devices** and click on **Insert Guest Additions CD image**.
+
+<br>
+<img src="images/VBox104.PNG" width="400">
+<br>
+<img src="images/VBox105.PNG" width="400">
+<br>
+
+> 21. If the CD image runs automatically, simply follow the steps. If not, open a terminal and run it as in the following example.
+
+<br>
+<img src="images/VBox106.PNG" width="400">
+<br>
+<img src="images/VBox107.PNG" width="400">
+<br>
+
+> 22. Restart the VM.
+
+<br>
+<img src="images/VBox108.PNG" width="400">
+<br>
+
+> 23. After restarting, you can immediately observe the changes in the screen.
+
+<br>
+<img src="images/VBox109.PNG" width="400">
+<br>
 
 ## - Final result
 
-> 21. Open the VM, and find the USB drive at *Devices - USB - NameoftheUSB*.
-
-<br>
-<img src="images/VBox56.PNG" width="600">
-<br>
-
-> 22. You can open the file manager and see the USB (in our case, appears as a "32 GB volume").
+> 24. You can open the file manager and see the USB (in our case, appears as a "32 GB volume").
 
 <br>
 <img src="images/VBox57.PNG" width="600">
 <br>
 
-> 23. That's it. Now you have a fully functional **CentOS-Stream-9** VM in a **Windows 10** computer.
+> 25. That's it. Now you have a fully functional **Mint-20.3-xfce** VM in a **Windows 10** computer.
 
 <br>
-<img src="images/VBox52.PNG" width="800">
+<img src="images/VBox109.PNG" width="800">
 <br>
 
-*Last updated: Antonio Mora, May 19th, 2022*
+*Last updated: Antonio Mora, May 21st, 2022*
