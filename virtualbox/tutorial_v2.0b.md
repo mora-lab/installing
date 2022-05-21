@@ -3,32 +3,30 @@
 # Creating a new Virtual Machine using VirtualBox
 <br>
 
-> The following are the instructions to create a virtual machine (VM) in **VirtualBox 6.1.34** for **Windows 10** (now referred as the "host" operative system) and install **CentOS-Stream-9** Linux system (now referred as the "guest" operative system). A similar process can be followed for other host and guest OS.
+> The following are the instructions to create a virtual machine (VM) in **VirtualBox 6.1.34** for **Windows 10** (now referred as the "host" operative system) and install **Mint-20.3-xfce** Linux system (now referred as the "guest" operative system). A similar process can be followed for other host and guest OS.
 
 ## - Downloads
 <br>
 
-> 1. Download the ISO file with our guest OS (CentOS-Stream-9). For this tutorial, we have downloaded our OS from here: [Download](http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-20220509.0-x86_64-dvd1.iso).
-
-> 2. Download VirtualBox Guest Additions: [VBox Guest Additions](https://download.virtualbox.org/virtualbox/6.1.34/VBoxGuestAdditions_6.1.34.iso).
+> 1. Download the ISO file with our guest OS (Mint-20.3-xfce) [here](https://linuxmint.com/edition.php?id=294). For this tutorial, we have downloaded our OS from here: [Download](https://mirrors.layeronline.com/linuxmint/stable/20.3/linuxmint-20.3-xfce-64bit.iso).
 
 ## - Installing VirtualBox
 <br>
 
-> 3. If you haven't installed VirtualBox, first go to our tutorial to install it:
+> 2. If you haven't installed **VirtualBox**, first go to our tutorial to install it:
 
 > [How to install VirtualBox](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0a.md)
 
 ## - Creating a new Virtual Machine
 <br>
 
-> 4. Open VirtualBox. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
+> 3. Open **VirtualBox**. To create a new VM, click on **"New"** and choose a name, folder, and operative system to be installed.
 
 <br>
 <img src="images/VBox69.PNG" width="400">
 <br>
 
-> 5. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 40 GB hard disk.
+> 5. Define your desired memory and hard-disk specifications. Here we have chosen 8 GB memory and 80 GB hard disk.
 
 <br>
 <img src="images/VBox70.PNG" width="400">
