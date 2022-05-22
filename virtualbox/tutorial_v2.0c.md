@@ -3,7 +3,7 @@
 # Importing an existing Virtual Machine into VirtualBox
 <br>
 
-> The following are the instructions to import an existing virtual machine (VM) in **VirtualBox 6.1.34** for **Windows 10** (now referred as the "host" operative system) and install **CentOS-Stream-9** Linux system (now referred as the "guest" operative system). A similar process can be followed for other host and guest OS.
+> The following are the instructions to import an existing virtual machine (VM) in **VirtualBox 6.1.34** for **Windows 10** (now referred as the "host" operative system).
 
 ## - Installing VirtualBox
 <br>
@@ -19,22 +19,30 @@
 
 ## - Importing virtual disk images (VDI files):
 
-> 3. Get your VDI file: You can find multiple VDIs on Internet (for example, at [OSBoxes](https://www.osboxes.org/virtualbox-images/), [Virtualboxes](https://virtualboxes.org/images/), or [VirtualDiskImages](http://virtualdiskimages.weebly.com/virtualbox.html)). For the purposes of this tutorial, download and unzip an image of [Lubuntu 20.04.1](https://sourceforge.net/projects/osboxes/files/v/vb/33-Lb--t/20.04.1/L20.04.1-VB-64bit.7z/download), which is a lightweight version of Ubuntu Linux.
+> 3. Get your VDI file: You can find multiple VDIs on Internet (for example, at [OSBoxes](https://www.osboxes.org/virtualbox-images/), [Virtualboxes](https://virtualboxes.org/images/), or [VirtualDiskImages](http://virtualdiskimages.weebly.com/virtualbox.html)). For the purposes of this tutorial, download and unzip an image of [Zorin 16.1](https://www.osboxes.org/zorin-os/), which is another popular Linux distro. You may also want to try [CentOS9-workstation](https://www.osboxes.org/centos/), [CentOS9-server](https://www.osboxes.org/centos/), or [Deepin](https://www.osboxes.org/deepin/).
 
-> 4. Open **Virtual Box** and create a VM following the steps 1-8 of our [tutorial](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md).
+> 4. Open **Virtual Box** and create a VM following the initial steps of our [tutorial](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md).
 
 <br>
-<img src="images/d01.PNG" width="600">
+<img src="images/VBox112.PNG" width="500">
 <br>
-<img src="images/d02.PNG" width="600">
+<img src="images/VBox70.PNG" width="500">
 <br>
 
-> 5. After you give a name to the VM and assign memory (and before assigning disk space and installing the OS), move the VDI file inside the new VM folder (the name you just assigned).
+> 5. After you give a name to the VM and assign memory (and before assigning disk space and installing the OS), move the downloaded VDI file inside the new VM folder (the name you just assigned).
+
+<br>
+<img src="images/VBox1.PNG" width="500">
+<br>
 
 > 6. When you are in the "Create virtual machine/Hard disk" step, choose "Use an existing virtual hard disk file", click on the small folder, and find your VDI file.
 
 <br>
-<img src="images/d03.PNG" width="600">
+<img src="images/VBox113.PNG" width="600">
+<br>
+<img src="images/VBox114.PNG" width="600">
+<br>
+<img src="images/VBox115.PNG" width="600">
 <br>
 
 > 7. Double-click and run the new VM.
@@ -93,4 +101,4 @@
 <img src="images/VBox52.PNG" width="800">
 <br>
 
-*Last updated: Antonio Mora, May 19th, 2022*
+*Last updated: Antonio Mora, May 22nd, 2022*
