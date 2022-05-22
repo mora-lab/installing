@@ -192,18 +192,34 @@
 <img src="images/VBox109.PNG" width="400">
 <br>
 
+## - Using the USB drive
+
+> 24. To mount the USB drive, go to the menu and click on **Devices** -> **USB** -> and then the name of your USB device.
+
+<br>
+<img src="images/VBox110.PNG" width="500">
+<br>
+
+> 25. You can now open the file manager and see the USB (in our case, appears as a "32 GB volume").
+
+<br>
+<img src="images/VBox111.PNG" width="500">
+<br>
+
 ## - Final result
 
-> 24. You can open the file manager and see the USB (in our case, appears as a "32 GB volume").
+> 26. That's it. Now you have a fully functional **Mint-20.3-xfce** VM in a **Windows 10** computer.
 
 <br>
-<img src="images/VBox57.PNG" width="600">
+<img src="images/VBox109.PNG" width="600">
 <br>
 
-> 25. That's it. Now you have a fully functional **Mint-20.3-xfce** VM in a **Windows 10** computer.
+## - Troubleshooting
 
-<br>
-<img src="images/VBox109.PNG" width="800">
-<br>
+> Problem1. When you maximize your VM, only the VM menu maximizes while the Linux Mint windows stays small.
+Solution1. You just need to minimize and maximize again and the changes will be evident.
 
-*Last updated: Antonio Mora, May 21st, 2022*
+> Problem2. When installing the Guest Additions, you get the error message "VERR_PDM_MEDIA_LOCKED".
+Solution2. You might need to close the VM, go to **Settings**/**Storage**, click on the CD icon, and click on **Leave empty**. Then return to the VM and try to install again.
+
+*Last updated: Antonio Mora, May 22nd, 2022*
