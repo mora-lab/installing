@@ -43,7 +43,7 @@
 > 5. After this, your first Virtual Machine will be created.
 
 <br>
-<img src="images/VBox84.PNG" width="400">
+<img src="images/VBox84.PNG" width="500">
 <br>
 
 > 6. Optional: To improve the video memory, go to **Settings**, **Display**, and **Screen**. Here we raised the video memory from the specified value to 128 MB.
@@ -189,7 +189,7 @@
 > 23. After restarting, you can immediately observe the changes in the screen.
 
 <br>
-<img src="images/VBox109.PNG" width="400">
+<img src="images/VBox109.PNG" width="500">
 <br>
 
 ## - Using the USB drive
@@ -221,5 +221,9 @@ Solution1. You just need to minimize and maximize again and the changes will be 
 
 > Problem2. When installing the Guest Additions, you get the error message "VERR_PDM_MEDIA_LOCKED".
 Solution2. You might need to close the VM, go to **Settings**/**Storage**, click on the CD icon, and click on **Leave empty**. Then return to the VM and try to install again.
+
+<br>
+<img src="images/Tr1.PNG" width="600">
+<br>
 
 *Last updated: Antonio Mora, May 22nd, 2022*
