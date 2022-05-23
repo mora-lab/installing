@@ -225,5 +225,11 @@ Solution2. You might need to close the VM, go to **Settings**/**Storage**, click
 <br>
 <img src="images/Tr1.PNG" width="600">
 <br>
+<img src="images/Tr02.PNG" width="600">
+<br>
+<img src="images/Tr03.PNG" width="600">
+<br>
+<img src="images/Tr04.PNG" width="600">
+<br>
 
 *Last updated: Antonio Mora, May 22nd, 2022*
