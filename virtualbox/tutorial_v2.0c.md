@@ -52,23 +52,23 @@
 > 7. That's it. Double-click and run the new VM. (Note: For all OSboxes' VDIs, username=osboxes, password=osboxes.org, root account password=osboxes.org).
 
 <br>
-<img src="images/118.PNG" width="500">
+<img src="images/VBox118.PNG" width="500">
 <br>
-<img src="images/119.PNG" width="500">
+<img src="images/VBox119.PNG" width="500">
 <br>
-<img src="images/120.PNG" width="500">
+<img src="images/VBox120.PNG" width="500">
 <br>
 
 > 8. You might be prompted to update some of the software.
 
 <br>
-<img src="images/121.PNG" width="500">
+<img src="images/VBox121.PNG" width="500">
 <br>
 
 > 9. You have successfully created a Zorin-16.1 VM. If you find some problems, check the "Troubleshooting" section of our tutorial.
 
 <br>
-<img src="images/122.PNG" width="500">
+<img src="images/VBox122.PNG" width="500">
 <br>
 
 ## - Importing appliances (OVA files):
@@ -78,39 +78,31 @@
 > 10. Open **Virtual Box**. In the *File* menu, select *Import Appliance* and then choose your OVA file.
 
 <br>
-<img src="images/e01.PNG" width="600">
+<img src="images/VBox123.PNG" width="600">
 <br>
-<img src="images/e02.PNG" width="600">
+<img src="images/VBox124.PNG" width="600">
 <br>
 
 > 11. You will get a box with the appliance settings. To avoid problems, uncheck all the controllers and update your base folder.
 
 <br>
-<img src="images/e03.PNG" width="600">
+<img src="images/VBox125.PNG" width="600">
 <br>
-<img src="images/e03b.PNG" width="600">
+<img src="images/VBox126.PNG" width="600">
 <br>
 
 > 12. Click on **Import**.
 
 <br>
-<img src="images/e04.PNG" width="600">
+<img src="images/VBox127.PNG" width="600">
 <br>
 
-> 13. Double-click on your new VM.
+> 13. That's it. Double-click on your new VM.
 
 <br>
-<img src="images/e05.PNG" width="600">
+<img src="images/VBox128.PNG" width="600">
 <br>
-<img src="images/e06.PNG" width="600">
-<br>
-
-## - Final result
-
-> 14. That's it. Now you have a fully functional **CentOS-Stream-9** VM in a **Windows 10** computer.
-
-<br>
-<img src="images/VBox52.PNG" width="800">
+<img src="images/VBox129.PNG" width="600">
 <br>
 
-*Last updated: Antonio Mora, May 22nd, 2022*
+*Last updated: Antonio Mora, May 23rd, 2022*
