@@ -211,7 +211,7 @@
 > 26. That's it. Now you have a fully functional **Mint-20.3-xfce** VM in a **Windows 10** computer.
 
 <br>
-<img src="images/VBox109.PNG" width="600">
+<img src="images/VBox109.PNG" width="650">
 <br>
 
 ## - Troubleshooting
@@ -223,13 +223,13 @@ Solution1. You just need to minimize and maximize again and the changes will be 
 Solution2. You might need to close the VM, go to **Settings**/**Storage**, click on the CD icon, and click on **Leave empty**. Then return to the VM and try to install again.
 
 <br>
-<img src="images/Tr1.PNG" width="600">
+<img src="images/Tr1.PNG" width="400">
 <br>
-<img src="images/Tr02.PNG" width="600">
+<img src="images/Tr02.PNG" width="400">
 <br>
-<img src="images/Tr03.PNG" width="600">
+<img src="images/Tr03.PNG" width="400">
 <br>
-<img src="images/Tr04.PNG" width="600">
+<img src="images/Tr04.PNG" width="400">
 <br>
 
 *Last updated: Antonio Mora, May 22nd, 2022*
