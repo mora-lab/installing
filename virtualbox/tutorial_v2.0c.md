@@ -73,7 +73,7 @@
 
 ## - Importing appliances (OVA files):
 
-> 9. First, get your OVA file. One example of OVA files that can be used in this tutorial is our [Galaxy-GSA](https://www.zenodo.org/53095). Download the OVA file [here](https://www.zenodo.org/53095.ova).
+> 9. First, get your OVA file. One example of OVA files that can be used in this tutorial is our [Galaxy-GSA](https://zenodo.org/record/5091267). Download the OVA file [here](https://zenodo.org/record/5091267/files/Galaxy-GSA.ova?download=1).
 
 > 10. Open **Virtual Box**. In the *File* menu, select *Import Appliance* and then choose your OVA file.
 
