@@ -32,31 +32,43 @@
 > 5. After you give a name to the VM and assign memory (and before assigning disk space and installing the OS), move the downloaded VDI file inside the new VM folder (the name you just assigned).
 
 <br>
-<img src="images/VBox1.PNG" width="500">
+<img src="images/VBox111b.PNG" width="500">
 <br>
 
-> 6. When you are in the "Create virtual machine/Hard disk" step, choose "Use an existing virtual hard disk file", click on the small folder, and find your VDI file.
+> 6. Continue the process of creating the virtual machine: choose "Use an existing virtual hard disk file", click on the small folder, and find your VDI file.
 
 <br>
-<img src="images/VBox113.PNG" width="600">
+<img src="images/VBox113.PNG" width="500">
 <br>
-<img src="images/VBox114.PNG" width="600">
+<img src="images/VBox114.PNG" width="500">
 <br>
-<img src="images/VBox115.PNG" width="600">
+<img src="images/VBox115.PNG" width="500">
 <br>
-
-> 7. Double-click and run the new VM.
-
+<img src="images/VBox116.PNG" width="500">
 <br>
-<img src="images/d04.PNG" width="600">
-<br>
-<img src="images/d05.PNG" width="600">
+<img src="images/VBox117.PNG" width="500">
 <br>
 
-> 8. Type the password and that's it. (Note: For all OSboxes' VDIs, username=osboxes, password=osboxes.org, root account password=osboxes.org).
+> 7. That's it. Double-click and run the new VM. (Note: For all OSboxes' VDIs, username=osboxes, password=osboxes.org, root account password=osboxes.org).
 
 <br>
-<img src="images/d06.PNG" width="600">
+<img src="images/118.PNG" width="500">
+<br>
+<img src="images/119.PNG" width="500">
+<br>
+<img src="images/120.PNG" width="500">
+<br>
+
+> 8. You might be prompted to update some of the software.
+
+<br>
+<img src="images/121.PNG" width="500">
+<br>
+
+> 9. You have successfully created a Zorin-16.1 VM. If you find some problems, check the "Troubleshooting" section of our tutorial.
+
+<br>
+<img src="images/122.PNG" width="500">
 <br>
 
 ## - Importing appliances (OVA files):
