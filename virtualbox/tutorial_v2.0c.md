@@ -78,31 +78,49 @@
 > 10. Open **Virtual Box**. In the *File* menu, select *Import Appliance* and then choose your OVA file.
 
 <br>
-<img src="images/VBox123.PNG" width="600">
+<img src="images/VBox123.PNG" width="500">
 <br>
-<img src="images/VBox124.PNG" width="600">
+<img src="images/VBox124.PNG" width="500">
+<br>
+<img src="images/VBox125.PNG" width="500">
+<br>
+<img src="images/VBox126.PNG" width="500">
 <br>
 
-> 11. You will get a box with the appliance settings. To avoid problems, uncheck all the controllers and update your base folder.
+> 11. You will get a box with the appliance settings. To avoid problems, use most of the default specifications. Just update your base folder.
 
 <br>
-<img src="images/VBox125.PNG" width="600">
-<br>
-<img src="images/VBox126.PNG" width="600">
+<img src="images/VBox127.PNG" width="500">
 <br>
 
 > 12. Click on **Import**.
 
 <br>
-<img src="images/VBox127.PNG" width="600">
+<img src="images/VBox128.PNG" width="500">
 <br>
 
 > 13. That's it. Double-click on your new VM.
 
 <br>
-<img src="images/VBox128.PNG" width="600">
+<img src="images/VBox129.PNG" width="500">
 <br>
-<img src="images/VBox129.PNG" width="600">
+<img src="images/VBox130.PNG" width="500">
+<br>
+
+> 14. The username is **galaxy** and the password is *galaxy*. Now you can use the VM: This is an Ubuntu Linux machine with Anaconda, Galaxy, and Galaxy-GSA installed. You can use it as an Ubuntu machine or you can follow the instructions in the screen to run Galaxy-GSA.
+
+<br>
+<img src="images/VBox131.PNG" width="500">
+<br>
+<img src="images/VBox132.PNG" width="500">
+<br>
+<img src="images/VBox134.PNG" width="500">
+<br>
+
+> 15. You might also get a software update message. If you just want to use the Galaxy-GSA, we don't recommend updates, as we know this is a stable configuration, while we don't know the effects of future updates.
+
+<br>
+<img src="images/VBox133.PNG" width="500">
 <br>
 
 *Last updated: Antonio Mora, May 23rd, 2022*
