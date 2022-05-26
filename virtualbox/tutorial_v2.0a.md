@@ -62,8 +62,8 @@
 
 > 6. Once you have installed VirtualBox, you might want to follow one of two alternatives:
 
-> [Create a new VM from scratch](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md)
+> [1. Create a new VM from scratch](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0b.md)
 
-> [Import an existing VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0c.md)
+> [2. Import an existing VM](https://github.com/mora-lab/installing/blob/main/virtualbox/tutorial_v2.0c.md)
 
 *Last updated: Antonio Mora, May 19th, 2022*
